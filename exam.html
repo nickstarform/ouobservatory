@@ -1,0 +1,41 @@
+<html>
+<head>
+<script type="text/javascript" src="test.js"></script>
+</head>
+<body>
+<h1>Hello World!</h1>
+<script>
+function populatePre(url) {
+    var xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+        if (this.responseText.split("\n")[0]){
+            document.getElementById('contents').textContent = this.responseText.split("\n")[2].split("=")[1];
+        }
+
+    };
+    xhr.open('GET', url);
+    xhr.send();
+}
+populatePre('./Website.properties');
+</script>
+<script>
+function populateObsDate(url) {
+    var xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+        for (Str j: this.responseText.split("\n")) {
+            for (Str g : j.split(":")){
+                if (g[0].equals("ObsDate")) {
+                    document.getElementById('popObsDate').textContent = g[1];
+                }
+            }
+        }
+    };
+    xhr.open('GET', url);
+    xhr.send();
+populateObsDate('./Website.properties');
+}
+</script>
+<div id="contents"></div>
+<div id="popObsDate"></div>
+</body>
+</html>

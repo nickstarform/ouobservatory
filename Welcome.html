@@ -1,0 +1,253 @@
+<!--Start of code -->
+<!-- 
+OU Observatory Website
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--####################-->
+<!-- Header information -->
+<!--####################-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OU Observatory">
+    <meta name="author" content="Nickalas Reynolds">
+
+    <title>OU Observatory</title>
+
+    <!--##############-->
+    <!-- Custom Fonts -->
+    <!--##############-->
+    <link href="./fonts/fa/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+
+    <!--###########-->
+    <!-- Theme CSS -->
+    <!--###########-->
+    <link href="./css/grayscale.min.css" rel="stylesheet">
+    <link href="./stylesheets/index.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!--###################-->
+    <!-- Plugin JavaScript -->
+    <!--###################-->
+    <script src="./js/collapse_toolbar.js"></script>
+
+
+    <!--##########################-->
+    <!-- E-obsfucation Javascript -->
+    <!--##########################-->
+    <script src="./js/touch.js"></script>
+
+    <!--#######################################-->
+    <!-- Modifies Website Based on Screen Size -->
+    <!--#######################################-->
+    <style>
+        /* For width 400px and larger: */
+        @media only screen and (dev-min-width: 1024px) {
+            .parallax{
+                background-attachment:scroll
+            }
+        }
+        @media all and (min-width: 768px) {.lart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.lart .rart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.rart{-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}}
+    </style>
+
+</head>
+
+<!-- decides background -->
+<style type="text/css">
+html,body {
+    background: url('./img/hubble-ultra-deep-field.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+</style>
+<!-- makes the background gradient -->
+<style type="text/css">
+#grad1 {
+  height: 100%;
+  width: 100%;
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0, 0)), color-stop(40%, rgba(0,0,0, 0.85)),color-stop(50%, rgba(0,0,0, 0.85)), color-stop(100%, rgba(0,0,0,0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
+  /* W3C */
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+  /* IE6-9 */
+}
+</style>
+<!--######################################-->
+<!-- Information to Display on front page -->
+<!--######################################-->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!--############-->
+    <!-- Navigation -->
+    <!--############-->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container" style="position: relative">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="./Welcome.html">
+                    <i class="fa fa-play-circle"></i> <span class="light">Welcome</span>
+                </a>
+            </div>
+
+            <!--####################-->
+            <!-- Bottom contact bar -->
+            <!--####################-->
+            <div class="about clearfix navbar-fixed-bottom">
+                <p class="pull-left">Star Party</p>
+                <div class="social pull-right">
+                    <a>Contact us<script>touch3("loonersooners","ou",5,"")</script></a>
+                </div>
+            </div>
+
+            <!--#################-->
+            <!-- Navbar toggling -->
+            <!--#################-->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="./Welcome.html"></a>
+                    </li>
+                    <li>
+                        <a href="./photos.html">Photos</a>
+                    </li>
+                    <li>
+                        <a href="./hosts.html">Hosts</a>
+                    </li>
+                    <li>
+                        <a href="http://www.ou.edu/lunarsooners/index/Welcome.html">Lunar Sooners</a>
+                    </li>
+                </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+    </nav>
+
+
+    <!--##############-->
+    <!-- Intro Header -->
+    <!--##############-->
+    <div class="col-md-8 col-md-offset-2" >
+        <div style="padding-top: 150px;">  
+            <div id='grad1'>
+                <div class="containerb" align="center" >
+                    <div class="image">
+                        <img src="./img/eclipse_oustarparty_cropped_border.png" min-width="100px" min-height="50px" height="150px">
+                    </div>
+                </div>
+
+                <!--#################-->
+                <!-- Next Star Party -->
+                <!--#################-->
+                <div class="container"  style="padding-top: 50px;">
+                    <div align="center">
+                        <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 3em;"> Our next star party...</div><br>
+                        <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 3em;" id="obsdate"></div><br>
+                        <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2.5em;" id="obsmess"></div>
+
+                    </div>  
+                </div>
+
+                <!--###########-->
+                <!-- Observing -->
+                <!--###########-->
+                <div class="container"  style="padding-top: 100px;">
+                    <div align="center">
+                        <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2em;"> We plan to observe: </div><br>
+                        <div id="obs"></div>
+                    </div>  
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--########-->
+    <!-- Footer -->
+    <!--########-->
+    <footer>
+        <div class="container text-center">
+            <script class="container text-center" language="Javascript"> document.write("This page was last modified on: " + document.lastModified +"") </script><br>
+            <p style="padding-top: 0pt;" class="paragraph_style_16"><a onclick="window.open(this.href); return false;" title="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" href="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" onkeypress="window.open(this.href); return false;">Astrophysics Research at OU<br /></a></p>            
+        </div>
+    </footer>
+
+    <!--###################-->
+    <!-- Plugin JavaScript -->
+    <!--###################-->
+    <script>
+        function populateObs(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                if (this.responseText.split("\n")[0]){
+                    document.getElementById('obsdate').textContent = this.responseText.split("\n")[2].split("=")[1];
+                    document.getElementById('obsmess').textContent = this.responseText.split("\n")[5].split("=")[1];
+                }
+
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        populateObs('./Website.properties');
+    </script>
+
+</body>
+</html>
+
+<!--#############-->
+<!-- End of Code -->
