@@ -22,21 +22,23 @@ OU Observatory Website
     <!-- Custom Fonts -->
     <!--##############-->
     <link href="./fonts/fa/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!--###########-->
     <!-- Theme CSS -->
     <!--###########-->
     <link href="./css/grayscale.min.css" rel="stylesheet">
-    <link href="./stylesheets/index.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!--###################-->
     <!-- Plugin JavaScript -->
     <!--###################-->
     <script src="./js/collapse_toolbar.js"></script>
-
+    <script src="./js/jquery_easing.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
     <!--##########################-->
     <!-- E-obsfucation Javascript -->
@@ -68,27 +70,6 @@ html,body {
     background-size: cover;
     width:100%;
     height:100%;
-}
-</style>
-<!-- makes the background gradient -->
-<style type="text/css">
-#grad1 {
-  height: 100%;
-  width: 100%;
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0, 0)), color-stop(40%, rgba(0,0,0, 0.85)),color-stop(50%, rgba(0,0,0, 0.85)), color-stop(100%, rgba(0,0,0,0)));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
-  /* IE10+ */
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0) 100%);
-  /* W3C */
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
-  /* IE6-9 */
 }
 </style>
 <!--######################################-->
@@ -147,7 +128,7 @@ html,body {
     <!--##############-->
     <!-- Intro Header -->
     <!--##############-->
-    <div class="col-md-8 col-md-offset-2" >
+    <div class="col-md-8 col-md-offset-2 center" >
         <div style="padding-top: 150px;">  
             <div id='grad1'>
                 <div class="containerb" align="center" >
@@ -159,77 +140,122 @@ html,body {
                 <!--#################-->
                 <!-- Next Star Party -->
                 <!--#################-->
-                <div class="container"  style="padding-top: 50px;">
+                <div style="padding-top: 50px;" width="100%" align="center" class="flex-container wrapper">
                     <div align="center">
                         <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 3em;"> Our next star party...</div><br>
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 3em;" id="obsdate"></div><br>
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2.5em;" id="obsmess"></div>
-
                     </div>  
                 </div>
 
                 <!--###########-->
                 <!-- Observing -->
                 <!--###########-->
-                <div class="container"  style="padding-top: 100px;">
+                <div style="padding-top: 100px;" width="100%" class="wrapper flex-container">
                     <div align="center">
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2em;"> We plan to observe: </div><br>
-                        <div id="obs"></div>
-                    </div>  
+                    </div>
+                    <div align="center" class="flex-container">
+                        <ul> 
+                            <li  style="padding-right: 147px;">
+                                <div style="color: rgba(256,256,256,1);font-size: 1.5em;" id="obsz"></div>
+                                <a id='starZa' href="./Welcome.html" target="_blank">
+                                    <img id='starZ' src="./img/default.jpg" width="147px" height="142px">
+                                </a>
+
+                            </li>
+                            <li style="padding-right: 147px;">
+                                <div style="color: rgba(256,256,256,1);font-size: 1.5em;" id="obso"></div>
+                                <a id='starOa' href="./Welcome.html" target="_blank">
+                                    <img id='starO' src="./img/default.jpg" width="147px" height="142px">
+                                </a>
+                            </li>
+                            <li style="padding-right: 147px;">
+                                <div style="color: rgba(256,256,256,1);font-size: 1.5em;" id="obstw"></div>
+                                <a id='starTwa' href="./Welcome.html" target="_blank">
+                                    <img id='starTw' src="./img/default.jpg" width="147px" height="142px">
+                                </a>
+                            </li>
+                            <li style="padding-right: 147px;">
+                                <div style="color: rgba(256,256,256,1);font-size: 1.5em;" id="obsth"></div>
+                                <a id='starTha' href="./Welcome.html" target="_blank">
+                                    <img id='starTh' src="./img/default.jpg" width="147px" height="142px">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
+                <!--##############-->
+                <!-- The Schedule -->
+                <!--##############-->
+                <div class="flex-container wrapper"  style="padding-top: 150px;" width="100%">
+                    <div align="center">
+                        <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 2.25em;" id="dateschedule"></div>
+                        <div align="center" class="flex-container-schedule">
+                            <ul><!--Months-->
+                                <li>
+                                    <p id="monthOneN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
+                                    <p id="monthOneD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                </li>
+                                <li>
+                                    <p id="monthTwoN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
+                                    <p id="monthTwoD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                </li>
+                                <li>
+                                    <p id="monthThrN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
+                                    <p id="monthThrD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                </li>
+                                <li>
+                                    <p id="monthFouN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
+                                    <p id="monthFouD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                </li>
+                                <li>
+                                    <p id="monthFivN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
+                                    <p id="monthFivD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                </li>
+                                <li>
+                                    <p id="monthSixN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
+                                    <p id="monthSixD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div><br>
 
+                <div class="flex-container wrapper" style="padding-top: 150px;" width="100%">
+                    <div align="center">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum blandit arcu sed rhoncus. Cras id blandit diam, quis maximus velit. Etiam vel odio metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur eget elit dui. Maecenas ornare molestie velit, volutpat ultrices dui dignissim vel. Proin eu ullamcorper justo, non tristique dui. Donec dignissim, risus sed maximus fermentum, tortor mauris auctor quam, sit amet pretium ipsum enim at odio. Aenean tempor turpis sed lobortis cursus.<br>
 
+                    Sed efficitur, libero nec tempus venenatis, odio metus molestie purus, eu accumsan augue metus eu lectus. Nunc porta pharetra pulvinar. Integer sed pellentesque enim. Nam vel nisi porta nunc consectetur porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum pharetra posuere varius. Proin maximus leo a risus ornare elementum. Vestibulum faucibus ante ut fermentum congue. Suspendisse sit amet sagittis sapien. Aenean sit amet ipsum egestas, euismod leo vel, pulvinar dui. Nullam accumsan turpis non volutpat pretium. Integer feugiat enim non magna bibendum dapibus.<br>
 
+                    Pellentesque posuere cursus eros, sed dapibus eros facilisis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu pulvinar ligula. Integer tempus nisl massa, in pretium lacus blandit non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque eget varius felis. Praesent ut tristique justo, vitae facilisis neque. Suspendisse cursus ante ac rutrum ultrices. Morbi posuere ante eget sem vulputate, blandit consequat ex tristique. Curabitur condimentum fringilla neque eu tincidunt. Fusce eu est eget tellus fringilla facilisis in at ligula. Vestibulum ut ultrices erat, lacinia mattis erat. Ut ultrices, urna in ultricies vestibulum, nulla lacus laoreet dolor, sit amet sodales eros odio rhoncus orci.<br>
 
+                    Curabitur at mauris a magna viverra hendrerit non eu sapien. Nullam iaculis posuere semper. Integer consectetur convallis interdum. Phasellus tincidunt porttitor mi, et maximus diam porta nec. Vivamus efficitur eleifend dui, tempus egestas massa dapibus ut. Donec feugiat risus id felis auctor posuere. Morbi a consectetur felis.<br>
 
-
-
-
-
-
-
+                    Praesent mattis cursus nunc ac congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vitae laoreet elit. In enim diam, luctus et felis nec, tempor porttitor nisi. Praesent tincidunt, libero nec mollis eleifend, ligula felis tincidunt lacus, volutpat imperdiet eros augue dignissim nunc. Aliquam quis euismod augue. Sed vel metus eget libero eleifend fringilla. Proin est lacus, sagittis non lorem consectetur, sollicitudin rutrum ex. Aliquam sem ex, mattis tempus felis id, elementum efficitur dui. Mauris pellentesque turpis at mi lobortis, eget pretium sem vestibulum. Maecenas accumsan felis dolor, suscipit euismod justo sodales nec. Nunc finibus accumsan sem a sagittis. </p>
+                </div>
+                </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!--########-->
     <!-- Footer -->
     <!--########-->
     <footer>
-        <div class="container text-center">
-            <script class="container text-center" language="Javascript"> document.write("This page was last modified on: " + document.lastModified +"") </script><br>
-            <p style="padding-top: 0pt;" class="paragraph_style_16"><a onclick="window.open(this.href); return false;" title="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" href="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" onkeypress="window.open(this.href); return false;">Astrophysics Research at OU<br /></a></p>            
+        <div class="flex-container text-center">
+            <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 1em;"><script class="container text-center" language="Javascript"> document.write("This page was last modified on: " + document.lastModified +"") </script></div><br>
+            <a style="display: inline-block;font-size: 1em;" href="https://www.nhn.ou.edu/~reynolds/" target="blank">Webmaster</a><br>
+            <p style="padding-top: 0pt;color: rgba(130, 136, 212,1);display: inline-block;font-size: 1em;" class="paragraph_style_16"><a target="blank" title="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" href="https://www.nhn.ou.edu/research/astrophysics-and-cosmology">Astrophysics Research at OU<br /></a></p>            
         </div>
     </footer>
 
     <!--###################-->
     <!-- Plugin JavaScript -->
     <!--###################-->
+    <!-- populates the observation date and message -->
     <script>
         function populateObs(url) {
             var xhr = new XMLHttpRequest();
@@ -238,16 +264,139 @@ html,body {
                     document.getElementById('obsdate').textContent = this.responseText.split("\n")[2].split("=")[1];
                     document.getElementById('obsmess').textContent = this.responseText.split("\n")[5].split("=")[1];
                 }
-
             };
             xhr.open('GET', url);
             xhr.send();
         }
         populateObs('./Website.properties');
     </script>
-
+    <!-- Creates the list of stars to be observed -->
+    <script>
+        function obsStars(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                if (this.responseText.split("\n")[0]){
+                    document.getElementById('obsz').textContent = this.responseText.split("\n")[8].split("=")[1].split(',')[0];
+                    document.getElementById('obso').textContent = this.responseText.split("\n")[8].split("=")[1].split(',')[1];
+                    document.getElementById('obstw').textContent = this.responseText.split("\n")[8].split("=")[1].split(',')[2];
+                    document.getElementById('obsth').textContent = this.responseText.split("\n")[8].split("=")[1].split(',')[3];
+                }
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        obsStars('./Website.properties');
+    </script>
+    <!-- The next 4 JS populate the images and references for the above stars-->
+    <script>
+        function popStar0(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                document.getElementById('starZ').src = "./img/"+this.responseText.split("\n")[8].split("=")[1].split(',')[0].split(' ').join('_')+".jpg";
+                document.getElementById('starZa').href = "https://en.wikipedia.org/wiki/"+this.responseText.split("\n")[8].split("=")[1].split(',')[0].split(' ').join('_');
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        popStar0('./Website.properties');
+    </script>
+    <script>
+        function popStar1(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                document.getElementById('starO').src = "./img/"+this.responseText.split("\n")[8].split("=")[1].split(',')[1].split(' ').join('_')+".jpg";
+                document.getElementById('starOa').href="https://en.wikipedia.org/wiki/"+this.responseText.split("\n")[8].split("=")[1].split(',')[1].split(' ').join('_');
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        popStar1('./Website.properties');
+    </script>
+    <script>
+        function popStar2(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                document.getElementById('starTw').src = "./img/"+this.responseText.split("\n")[8].split("=")[1].split(',')[2].split(' ').join('_')+".jpg";
+                document.getElementById('starTwa').href="https://en.wikipedia.org/wiki/"+this.responseText.split("\n")[8].split("=")[1].split(',')[2].split(' ').join('_');
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        popStar2('./Website.properties');
+    </script>
+    <script>
+        function popStar3(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                document.getElementById('starTh').src = "./img/"+this.responseText.split("\n")[8].split("=")[1].split(',')[3].split(' ').join('_')+".jpg";
+                document.getElementById('starTha').href="https://en.wikipedia.org/wiki/"+this.responseText.split("\n")[8].split("=")[1].split(',')[3].split(' ').join('_');
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        popStar3('./Website.properties');
+    </script>
+    <!-- Gives the Name of the upcoming schedule -->
+    <script>
+        function timelineSched(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                if (this.responseText.split("\n")[0]){
+                    document.getElementById('dateschedule').textContent = this.responseText.split("\n")[11].split("=")[1];
+                }
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        timelineSched('./Website.properties');
+    </script>
+    <!-- Gives the Name of the upcoming Months-->
+    <script>
+        function timelineSched(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                if (this.responseText.split("\n")[0]){
+                    document.getElementById('monthOneN').textContent = this.responseText.split("\n")[0].split("=")[0];
+                    document.getElementById('monthTwoN').textContent = this.responseText.split("\n")[1].split("=")[0];
+                    document.getElementById('monthThrN').textContent = this.responseText.split("\n")[2].split("=")[0];
+                    document.getElementById('monthFouN').textContent = this.responseText.split("\n")[3].split("=")[0];
+                    document.getElementById('monthFivN').textContent = this.responseText.split("\n")[4].split("=")[0];
+                    document.getElementById('monthSixN').textContent = this.responseText.split("\n")[5].split("=")[0];
+                }
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        timelineSched('./currentschedule.properties');
+    </script>
+    <!-- Gives the Dates of the upcoming Months-->
+    <script>
+        function timelineSched(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                if (this.responseText.split("\n")[0]){
+                    document.getElementById('monthOneD').innerHTML = this.responseText.split("\n")[0].split("=")[1].split(',').join('<br>');
+                    document.getElementById('monthTwoD').innerHTML = this.responseText.split("\n")[1].split("=")[1].split(',').join('<br>');
+                    document.getElementById('monthThrD').innerHTML = this.responseText.split("\n")[2].split("=")[1].split(',').join('<br>');
+                    document.getElementById('monthFouD').innerHTML = this.responseText.split("\n")[3].split("=")[1].split(',').join('<br>');
+                    document.getElementById('monthFivD').innerHTML = this.responseText.split("\n")[4].split("=")[1].split(',').join('<br>');
+                    document.getElementById('monthSixD').innerHTML = this.responseText.split("\n")[5].split("=")[1].split(',').join('<br>');
+                }
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        timelineSched('./currentschedule.properties');
+    </script>
 </body>
 </html>
 
 <!--#############-->
-<!-- End of Code -->
+<!-- End of Code 
+
+    <section id="weather" class="flex-container center">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Weather</h3>
+            </div>
+    </section><br>
+-->

@@ -4,38 +4,66 @@
 </head>
 <body>
 <h1>Hello World!</h1>
-<script>
-function populatePre(url) {
-    var xhr = new XMLHttpRequest();
-    xhr.onload = function () {
-        if (this.responseText.split("\n")[0]){
-            document.getElementById('contents').textContent = this.responseText.split("\n")[2].split("=")[1];
-        }
 
-    };
-    xhr.open('GET', url);
-    xhr.send();
-}
-populatePre('./Website.properties');
+<a id='imagea' target="blank" href=""><img id='starZ' src="img/default.jpg" width="147px" height="142px"></a>
+<img id='starO' src="default.jpg" width="147px" height="142px" target="_blank">
+<img id='starTw' src="default.jpg" width="147px" height="142px" target="_blank">
+<img id='starTh' src="default.jpg" width="147px" height="142px" target="_blank">
+
+<h1>Hello World!</h1>
+
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum blandit arcu sed rhoncus. Cras id blandit diam, quis maximus velit. Etiam vel odio metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur eget elit dui. Maecenas ornare molestie velit, volutpat ultrices dui dignissim vel. Proin eu ullamcorper justo, non tristique dui. Donec dignissim, risus sed maximus fermentum, tortor mauris auctor quam, sit amet pretium ipsum enim at odio. Aenean tempor turpis sed lobortis cursus.</div>
+
+<p>Here</p>
+<script>
+    function popStar0(url) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+            document.getElementById('imagea').href = "https://en.wikipedia.org/wiki/"+this.responseText.split("\n")[8].split("=")[1].split(',')[1].split(' ').join('_');
+        };
+        xhr.open('GET', url);
+        xhr.send();
+    }
+    popStar0('./Website.properties');
+</script>
+
+<script>
+    function popStar1(url) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+            document.getElementById('starO').src = "./img/"+this.responseText.split("\n")[8].split("=")[1].split(',')[1].split(' ').join('_')+".jpg";
+            document.getElementById('starOa').href="https://en.wikipedia.org/wiki/"+this.responseText.split("\n")[8].split("=")[1].split(',')[1].split(' ').join('_');
+        };
+        xhr.open('GET', url);
+        xhr.send();
+    }
+    popStar1('./Website.properties');
 </script>
 <script>
-function populateObsDate(url) {
-    var xhr = new XMLHttpRequest();
-    xhr.onload = function () {
-        for (Str j: this.responseText.split("\n")) {
-            for (Str g : j.split(":")){
-                if (g[0].equals("ObsDate")) {
-                    document.getElementById('popObsDate').textContent = g[1];
-                }
-            }
-        }
-    };
-    xhr.open('GET', url);
-    xhr.send();
-populateObsDate('./Website.properties');
-}
+    function popStar2(url) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+            document.getElementById('starTw').src = "./img/"+this.responseText.split("\n")[8].split("=")[1].split(',')[2].split(' ').join('_')+".jpg";
+            document.getElementById('starTwa').href="https://en.wikipedia.org/wiki/"+this.responseText.split("\n")[8].split("=")[2].split(',')[1].split(' ').join('_');
+        };
+        xhr.open('GET', url);
+        xhr.send();
+    }
+    popStar2('./Website.properties');
 </script>
-<div id="contents"></div>
-<div id="popObsDate"></div>
+<script>
+    function popStar3(url) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+            document.getElementById('starTh').src = "./img/"+this.responseText.split("\n")[8].split("=")[1].split(',')[3].split(' ').join('_')+".jpg";
+            document.getElementById('starTha').href="https://en.wikipedia.org/wiki/"+this.responseText.split("\n")[8].split("=")[3].split(',')[1].split(' ').join('_');
+        };
+        xhr.open('GET', url);
+        xhr.send();
+    }
+    popStar3('./Website.properties');
+</script>
+
+
 </body>
 </html>
