@@ -146,10 +146,37 @@ html,body {
                 <!--#################-->
                 <div style="padding-top: 50px;" width="100%" align="center" class="flex-container wrapper">
                     <div align="center">
-                        <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 3em;">Hosts</div><br>
+                        <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 3em;">Images</div><br>
                     </div>  
                 </div>
-                <div id="hostlist"></div>
+
+                <div class="flex-container mainwrapper"><a href="./img/Alberio.jpg"><img width="50%" src='./img/Alberio.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Andromeda_Galaxy.jpg"><img width="50%" src='./img/Andromeda_Galaxy.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/default.jpg"><img width="50%" src='./img/default.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Double_Cluster.jpg"><img width="50%" src='./img/Double_Cluster.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/eclipse.jpg"><img width="50%" src='./img/eclipse.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/hubble-ultra-deep-field.jpg"><img width="50%" src='./img/hubble-ultra-deep-field.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Jupiter.jpg"><img width="50%" src='./img/Jupiter.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/layer0_background.jpg"><img width="50%" src='./img/layer0_background.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/map_updated.png"><img width="50%" src='./img/map_updated.png'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Mars.jpg"><img width="50%" src='./img/Mars.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Messier_13.jpg"><img width="50%" src='./img/Messier_13.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Messier_3.jpg"><img width="50%" src='./img/Messier_3.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Mizor_and_Alcor.jpg"><img width="50%" src='./img/Mizor_and_Alcor.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Moon.jpg"><img width="50%" src='./img/Moon.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/NGC_3242.jpg"><img width="50%" src='./img/NGC_3242.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/NGC_7009_Hubble.jpg"><img width="50%" src='./img/NGC_7009_Hubble.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/NGC_7662.jpg"><img width="50%" src='./img/NGC_7662.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Orion_Nebula.jpg"><img width="50%" src='./img/Orion_Nebula.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/planetary_nebula.jpg"><img width="50%" src='./img/planetary_nebula.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Pleiades.jpg"><img width="50%" src='./img/Pleiades.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Ring_Nebula.jpg"><img width="50%" src='./img/Ring_Nebula.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Saturn.jpg"><img width="50%" src='./img/Saturn.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Uranus.jpg"><img width="50%" src='./img/Uranus.jpg'></a></div>
+                <div class="flex-container mainwrapper"><a href="./img/Venus.jpg"><img width="50%" src='./img/Venus.jpg'></a></div>
+
+
+
 
                 <!--########-->
                 <!-- Footer -->
@@ -164,38 +191,6 @@ html,body {
             </div>
         </div>
     </div>
-
-    <!--###################-->
-    <!-- Plugin JavaScript -->
-    <!--###################-->
-    <!-- Creates the list of stars to be observed -->
-    <script>
-        function obsHosts(url) {
-            var xhr = new XMLHttpRequest();
-            xhr.onload = function () {
-                var i;
-                for (i in this.responseText.split("\n")){
-                    if (this.responseText.split("\n")[i].split(':')[0] == "+"){
-                      var paraG = document.createElement("P");
-                      paraG.setAttribute("style","color: rgba(77,62,207,1);");
-                      var t = document.createTextNode(this.responseText.split("\n")[i].split(':')[1]);
-                      paraG.appendChild(t);
-                      document.getElementById("hostlist").appendChild(paraG);
-                    }
-                    else if ((this.responseText.split("\n")[i].split(':')[0] != "") && (this.responseText.split("\n")[i].split(':')[0] != "\n")) {
-                      var parag = document.createElement("P");
-                      parag.setAttribute("style","color: rgba(255,255,255,1);");
-                      var v = document.createTextNode(this.responseText.split("\n")[i].split(':')[0] + " : " + this.responseText.split("\n")[i].split(':')[1]);
-                      parag.appendChild(v);
-                      document.getElementById("hostlist").appendChild(parag);
-                    }
-                };
-            };
-            xhr.open('GET', url);
-            xhr.send();
-        }
-        obsHosts('./starpartyhosts.config');
-    </script>
 </body>
 </html>
 

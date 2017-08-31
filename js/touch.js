@@ -38,6 +38,10 @@ function touch3(name, dom, pc, params)
 {
 	document.write('<a href="'+m_+e(name,dom,pc)+params+'" target="blank"><i class="fa fa-inbox"></i></a>');
 }
+function touch4(name, dom, pc, params, display)
+{
+	document.write('<a href="'+m_+e(name,dom,pc)+params+'"target="blank" class="btn btn-default btn-lg"><i class="fa fa-inbox"></i> '+display+'</a>');
+}
 function e(name, dom, pc)
 {
 	var s = name+a_;

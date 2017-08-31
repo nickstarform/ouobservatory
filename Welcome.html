@@ -39,6 +39,9 @@ OU Observatory Website
     <script src="./js/jquery_easing.js"></script>
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/jquery.simpleWeather.min.js"></script>
+    <script src="./js/moment.js"></script>
 
     <!--##########################-->
     <!-- E-obsfucation Javascript -->
@@ -50,7 +53,7 @@ OU Observatory Website
     <!--#######################################-->
     <style>
         /* For width 400px and larger: */
-        @media only screen and (dev-min-width: 1024px) {
+        @media only screen and (dev-min-width: 700px) {
             .parallax{
                 background-attachment:scroll
             }
@@ -68,8 +71,6 @@ html,body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width:100%;
-    height:100%;
 }
 </style>
 <!--######################################-->
@@ -81,12 +82,12 @@ html,body {
     <!-- Navigation -->
     <!--############-->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container" style="position: relative">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                   <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="./Welcome.html">
+                <a class="navbar-brand page-scroll" href="#page-top" style="color: rgb(60,207,23,1)">
                     <i class="fa fa-play-circle"></i> <span class="light">Welcome</span>
                 </a>
             </div>
@@ -97,7 +98,9 @@ html,body {
             <div class="about clearfix navbar-fixed-bottom">
                 <p class="pull-left">Star Party</p>
                 <div class="social pull-right">
-                    <a>Contact us<script>touch3("loonersooners","ou",5,"")</script></a>
+                    <script>touch3("loonersooners","ou",5,"")</script>
+                    <a href="https://twitter.com/OUStarParty" target="blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/nickalaskreynolds/ouobservatory.git" target="blank"> <i class="fa fa-github"></i></a>
                 </div>
             </div>
 
@@ -111,13 +114,22 @@ html,body {
                         <a href="./Welcome.html"></a>
                     </li>
                     <li>
-                        <a href="./photos.html">Photos</a>
+                        <a href="#obsschedule" style="color: rgb(60,207,23,1)">Schedule</a>
                     </li>
                     <li>
-                        <a href="./hosts.html">Hosts</a>
+                        <a href="#currweather" style="color: rgb(60,207,23,1)">Info</a>
                     </li>
                     <li>
-                        <a href="http://www.ou.edu/lunarsooners/index/Welcome.html">Lunar Sooners</a>
+                        <a href="./photos.html" style="color: rgb(60,207,23,1)">Photos</a>
+                    </li>
+                    <li>
+                        <a href="./hosts.html" style="color: rgb(60,207,23,1)">Hosts</a>
+                    </li>
+                    <li>
+                        <a href="#contact" style="color: rgb(60,207,23,1)">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://www.ou.edu/lunarsooners/index/Welcome.html" style="color: rgb(60,207,23,1)">LS</a>
                     </li>
                 </ul>
             </div> <!-- /.navbar-collapse -->
@@ -131,7 +143,7 @@ html,body {
     <div class="col-md-8 col-md-offset-2 center" >
         <div style="padding-top: 150px;">  
             <div id='grad1'>
-                <div class="containerb" align="center" >
+                <div class="containerb" align="center" id='nextparty'>
                     <div class="image">
                         <img src="./img/eclipse_oustarparty_cropped_border.png" min-width="100px" min-height="50px" height="150px">
                     </div>
@@ -140,7 +152,7 @@ html,body {
                 <!--#################-->
                 <!-- Next Star Party -->
                 <!--#################-->
-                <div style="padding-top: 50px;" width="100%" align="center" class="flex-container wrapper">
+                <div style="padding-top: 50px;" width="100%" align="center" class="flex-container mainwrapper">
                     <div align="center">
                         <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 3em;"> Our next star party...</div><br>
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 3em;" id="obsdate"></div><br>
@@ -151,7 +163,7 @@ html,body {
                 <!--###########-->
                 <!-- Observing -->
                 <!--###########-->
-                <div style="padding-top: 100px;" width="100%" class="wrapper flex-container">
+                <div style="padding-top: 100px;" width="100%" class="wrapper flex-container" id="obsschedule">
                     <div align="center">
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2em;"> We plan to observe: </div><br>
                     </div>
@@ -189,68 +201,112 @@ html,body {
                 <!--##############-->
                 <!-- The Schedule -->
                 <!--##############-->
-                <div class="flex-container wrapper"  style="padding-top: 150px;" width="100%">
+                <div class="flex-container mainwrapper"  style="padding-top: 150px;" width="100%">
                     <div align="center">
                         <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 2.25em;" id="dateschedule"></div>
                         <div align="center" class="flex-container-schedule">
                             <ul><!--Months-->
                                 <li>
-                                    <p id="monthOneN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
-                                    <p id="monthOneD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                    <p id="monthOneN" style="color: rgba(256,0,0,1);font-size: 30px;"></p>
+                                    <p id="monthOneD" style="color: rgba(256,256,256,1);font-size: 25px;"></p>
                                 </li>
                                 <li>
-                                    <p id="monthTwoN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
-                                    <p id="monthTwoD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                    <p id="monthTwoN" style="color: rgba(256,0,0,1);font-size: 30px;"></p>
+                                    <p id="monthTwoD" style="color: rgba(256,256,256,1);font-size: 25px;"></p>
                                 </li>
                                 <li>
-                                    <p id="monthThrN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
-                                    <p id="monthThrD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                    <p id="monthThrN" style="color: rgba(256,0,0,1);font-size: 30px;"></p>
+                                    <p id="monthThrD" style="color: rgba(256,256,256,1);font-size: 25px;"></p>
                                 </li>
                                 <li>
-                                    <p id="monthFouN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
-                                    <p id="monthFouD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                    <p id="monthFouN" style="color: rgba(256,0,0,1);font-size: 30px;"></p>
+                                    <p id="monthFouD" style="color: rgba(256,256,256,1);font-size: 25px;"></p>
                                 </li>
                                 <li>
-                                    <p id="monthFivN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
-                                    <p id="monthFivD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                    <p id="monthFivN" style="color: rgba(256,0,0,1);font-size: 30px;"></p>
+                                    <p id="monthFivD" style="color: rgba(256,256,256,1);font-size: 25px;"></p>
                                 </li>
                                 <li>
-                                    <p id="monthSixN" style="color: rgba(256,0,0,1);font-size: 2em;"></p>
-                                    <p id="monthSixD" style="color: rgba(256,256,256,1);font-size: 1em;"></p>
+                                    <p id="monthSixN" style="color: rgba(256,0,0,1);font-size: 30px;"></p>
+                                    <p id="monthSixD" style="color: rgba(256,256,256,1);font-size: 25px;"></p>
                                 </li>
                             </ul>
                         </div>
                     </div>  
                 </div><br>
 
-                <div class="flex-container wrapper" style="padding-top: 150px;" width="100%">
+                <!--##############-->
+                <!-- General Info -->
+                <!--##############-->
+                <div class="flex-container mainwrapper" style="padding-top: 150px;color: rgba(256,256,256,1);font-size: 1em;"" width="100%" id="currweather">
                     <div align="center">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum blandit arcu sed rhoncus. Cras id blandit diam, quis maximus velit. Etiam vel odio metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur eget elit dui. Maecenas ornare molestie velit, volutpat ultrices dui dignissim vel. Proin eu ullamcorper justo, non tristique dui. Donec dignissim, risus sed maximus fermentum, tortor mauris auctor quam, sit amet pretium ipsum enim at odio. Aenean tempor turpis sed lobortis cursus.<br>
+                        <h2 style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 2.25em;">General Information</h2>
+                        <p class="description">
+                            Every Wednesday night while OU is in session, the Physics and Astronomy department sponsors <em>FREE</em> public star parties on the roof of the observatory, which is located on the East side of Asp Avenue just South of Lindsey Avenue. Look for the building with the white dome on top. To reach the roof, climb the exterior staircase on the West side of the building.<br>
 
-                    Sed efficitur, libero nec tempus venenatis, odio metus molestie purus, eu accumsan augue metus eu lectus. Nunc porta pharetra pulvinar. Integer sed pellentesque enim. Nam vel nisi porta nunc consectetur porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum pharetra posuere varius. Proin maximus leo a risus ornare elementum. Vestibulum faucibus ante ut fermentum congue. Suspendisse sit amet sagittis sapien. Aenean sit amet ipsum egestas, euismod leo vel, pulvinar dui. Nullam accumsan turpis non volutpat pretium. Integer feugiat enim non magna bibendum dapibus.<br>
+                            <em>Note: Regrettably, the observatory roof is currently wheelchair inaccessible. This staircase is the only way to reach the roof.</em><br>
 
-                    Pellentesque posuere cursus eros, sed dapibus eros facilisis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu pulvinar ligula. Integer tempus nisl massa, in pretium lacus blandit non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque eget varius felis. Praesent ut tristique justo, vitae facilisis neque. Suspendisse cursus ante ac rutrum ultrices. Morbi posuere ante eget sem vulputate, blandit consequat ex tristique. Curabitur condimentum fringilla neque eu tincidunt. Fusce eu est eget tellus fringilla facilisis in at ligula. Vestibulum ut ultrices erat, lacinia mattis erat. Ut ultrices, urna in ultricies vestibulum, nulla lacus laoreet dolor, sit amet sodales eros odio rhoncus orci.<br>
+                            A typical night could include a planet or two, binary stars, star clusters, or maybe one of the brighter nebulae. All ages are welcome, but we ask that younger children be under adult supervision at all times. <br>
 
-                    Curabitur at mauris a magna viverra hendrerit non eu sapien. Nullam iaculis posuere semper. Integer consectetur convallis interdum. Phasellus tincidunt porttitor mi, et maximus diam porta nec. Vivamus efficitur eleifend dui, tempus egestas massa dapibus ut. Donec feugiat risus id felis auctor posuere. Morbi a consectetur felis.<br>
+                            Viewing times change throughout the year, so please check this page for current observing times and weather cancellations. The final decision on weather cancellations will be made <em>three hours</em> before the scheduled start time at the latest. For the latest cloud predictions at the observatory, click on the clouds: <a href="http://www.cleardarksky.com/c/UOObOKkey.html?1" target="blank"><img src="./img/clouds.jpg" style="border: none; height:35px;width: 100px;"></a>
+                        </p><br>
+                        <img src="./img/map_updated.png" style="border: none; min-height:200px;min-width: 200px;">
 
-                    Praesent mattis cursus nunc ac congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vitae laoreet elit. In enim diam, luctus et felis nec, tempor porttitor nisi. Praesent tincidunt, libero nec mollis eleifend, ligula felis tincidunt lacus, volutpat imperdiet eros augue dignissim nunc. Aliquam quis euismod augue. Sed vel metus eget libero eleifend fringilla. Proin est lacus, sagittis non lorem consectetur, sollicitudin rutrum ex. Aliquam sem ex, mattis tempus felis id, elementum efficitur dui. Mauris pellentesque turpis at mi lobortis, eget pretium sem vestibulum. Maecenas accumsan felis dolor, suscipit euismod justo sodales nec. Nunc finibus accumsan sem a sagittis. </p>
+                        <p>
+                            We have obtained permission for visitors to park in the Asp Parking Garage north of Lindsey on star party evenings.
+                        </p>
+                    </div>
                 </div>
+
+                <!--#########-->
+                <!-- Weather -->
+                <!--#########-->
+                <div class="flex-container mainwrapper" style="color: rgba(130, 136, 212,1);font-size: 2.5em;padding-top: 150px;" id="currweather">
+                    <h2>Current Weather</h2>
                 </div>
+                <section id="weather" class="flex-container center mainwrapper" style="color: rgba(256,256,256,1);font-size: 30px">
+                </section>
+
+                <!--##############-->
+                <!-- Contact Info -->
+                <!--##############-->
+                <div class="flex-container mainwrapper" style="color: rgba(256,256,256,1);font-size: 1em;padding-top: 150px;" id="contact">
+                    <div class="outPopUp">
+                        <h2 style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 2.25em;">Contact Lunar Sooners</h2>
+                        <p>Please contact us if you are interested in any of the work we do or have any questions... </p>
+                        <div class="center" style="vertical-align: middle;">
+                            <ul class="list-inline banner-social-buttons">
+                                <li>
+                                    <a><script>touch4("lunarsooners","ou",5,"","Email")</script></a>
+                                </li>
+                                <li>
+                                    <a href="https://nhn.ou.edu" class="btn btn-default btn-lg" target="blank"><i class="fa fa-map-marker fa-fw"></i><span class="network-name">Nielsen</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/OUStarParty" class="btn btn-default btn-lg" target="blank"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/nickalaskreynolds/ouobservatory.git" class="btn btn-default btn-lg" target="blank"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--########-->
+                <!-- Footer -->
+                <!--########-->
+                <footer>
+                    <div class="flex-container mainwrapper" style="width:100%;">
+                        <div  style="color: rgb(60,207,23,1);display: inline-block;font-size: 1em;"><script class="container text-center" language="Javascript"> document.write("This page was last modified on: " + document.lastModified +"") </script></div><br>
+                        <a style="display: inline-block;font-size: 1em;" href="https://www.nhn.ou.edu/~reynolds/" target="blank">Webmaster</a><br>
+                        <p style="padding-top: 0pt;color: rgba(130, 136, 212,1);display: inline-block;font-size: 1em;" class="paragraph_style_16"><a target="blank" title="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" href="https://www.nhn.ou.edu/research/astrophysics-and-cosmology">Astrophysics Research at OU<br /></a></p>            
+                    </div>
+                </footer>
             </div>
         </div>
     </div>
 
-    <!--########-->
-    <!-- Footer -->
-    <!--########-->
-    <footer>
-        <div class="flex-container text-center">
-            <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 1em;"><script class="container text-center" language="Javascript"> document.write("This page was last modified on: " + document.lastModified +"") </script></div><br>
-            <a style="display: inline-block;font-size: 1em;" href="https://www.nhn.ou.edu/~reynolds/" target="blank">Webmaster</a><br>
-            <p style="padding-top: 0pt;color: rgba(130, 136, 212,1);display: inline-block;font-size: 1em;" class="paragraph_style_16"><a target="blank" title="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" href="https://www.nhn.ou.edu/research/astrophysics-and-cosmology">Astrophysics Research at OU<br /></a></p>            
-        </div>
-    </footer>
+
 
     <!--###################-->
     <!-- Plugin JavaScript -->
@@ -392,11 +448,4 @@ html,body {
 </html>
 
 <!--#############-->
-<!-- End of Code 
-
-    <section id="weather" class="flex-container center">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h3>Weather</h3>
-            </div>
-    </section><br>
--->
+<!-- End of Code -->
