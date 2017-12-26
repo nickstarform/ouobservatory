@@ -5,6 +5,10 @@ The only files you will have to update are:
 Website.properties          --- The main file to update. This should be updated 
                             for every start party. You have to follow the 
                             format
+                            #example PlanObs=Orion Nebula,... where the image is 
+                            Orion_Nebula.jpg and the wiki entry is 
+                            https://en.wikipedia.org/wiki/Orion_Nebula
+
 Catalogue.config            --- The current list of possible sources to observe, 
 	                        update this file when you add more objects.
                             The name of the source must be the same as on Wikipedia.
