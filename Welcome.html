@@ -1,6 +1,7 @@
 <!--Start of code -->
 <!-- 
-OU Observatory Website
+Name:   OU Observatory Website, Welcome Page
+Author: Nickalas Reynolds
 -->
 
 <!DOCTYPE html>
@@ -28,9 +29,9 @@ OU Observatory Website
     <!--###########-->
     <!-- Theme CSS -->
     <!--###########-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/grayscale.min.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!--###################-->
     <!-- Plugin JavaScript -->
@@ -51,16 +52,16 @@ OU Observatory Website
     <!--#######################################-->
     <!-- Modifies Website Based on Screen Size -->
     <!--#######################################-->
+    <script src="./js/collapse_toolbar.js"></script>
     <style>
         /* For width 400px and larger: */
-        @media only screen and (dev-min-width: 700px) {
+        @media only screen and (dev-min-width: 1024px) {
             .parallax{
                 background-attachment:scroll
             }
         }
         @media all and (min-width: 768px) {.lart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.lart .rart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.rart{-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}}
     </style>
-
 </head>
 
 <!-- decides background -->
@@ -87,8 +88,8 @@ html,body {
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                   <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" style="color: rgb(60,207,23,1)">
-                    <i class="fa fa-play-circle"></i> <span class="light">Welcome</span>
+                <a class="navbar-brand page-scroll" href="#page-top"><!-- style="color: rgb(60,207,23,1)"-->
+                    <i class="fa fa-play-circle"></i> <span class="light">Hello</span>
                 </a>
             </div>
 
@@ -129,13 +130,12 @@ html,body {
                         <a href="#contact" style="color: rgb(60,207,23,1)">Contact</a>
                     </li>
                     <li>
-                        <a href="http://www.ou.edu/lunarsooners/index/Welcome.html" style="color: rgb(60,207,23,1)">LS</a>
+                        <a href="http://www.ou.edu/lunarsooners/index/Welcome.html" style="color: rgb(60,207,23,1)">Lunar Sooners</a>
                     </li>
                 </ul>
             </div> <!-- /.navbar-collapse -->
         </div> <!-- /.container -->
     </nav>
-
 
     <!--##############-->
     <!-- Intro Header -->
@@ -144,9 +144,11 @@ html,body {
         <div style="padding-top: 150px;">  
             <div id='grad1'>
                 <div class="containerb" align="center" id='nextparty'>
+                    <header>
                     <div class="image">
                         <img src="./img/eclipse_oustarparty_cropped_border.png" min-width="100px" min-height="50px" height="150px">
                     </div>
+                    </header>
                 </div>
 
                 <!--#################-->
@@ -156,7 +158,11 @@ html,body {
                     <div align="center">
                         <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 3em;"> Our next star party...</div><br>
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 3em;" id="obsdate"></div><br>
-                        <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2.5em;" id="obsmess"></div>
+                        <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2.5em;" id="obsmess"></div><br>
+                        <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2em;">
+                            <a class="twitter-timeline" href="https://twitter.com/LunarSooners?ref_src=twsrc%5Etfw">Tweets by LunarSooners</a> 
+                        </div>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
                     </div>  
                 </div>
 
@@ -245,12 +251,13 @@ html,body {
                             Every Wednesday night while OU is in session, the Physics and Astronomy department sponsors <em>FREE</em> public star parties on the roof of the observatory, which is located on the East side of Asp Avenue just South of Lindsey Avenue. Look for the building with the white dome on top. To reach the roof, climb the exterior staircase on the West side of the building.<br>
 
                             <em>Note: Regrettably, the observatory roof is currently wheelchair inaccessible. This staircase is the only way to reach the roof.</em><br>
+                            <em>Future: Coming soon is our new observatory that will be wheelchair accessible, ~2018-2019</em><br>
 
                             A typical night could include a planet or two, binary stars, star clusters, or maybe one of the brighter nebulae. All ages are welcome, but we ask that younger children be under adult supervision at all times. <br>
 
-                            Viewing times change throughout the year, so please check this page for current observing times and weather cancellations. The final decision on weather cancellations will be made <em>three hours</em> before the scheduled start time at the latest. For the latest cloud predictions at the observatory, click on the clouds: <a href="http://www.cleardarksky.com/c/UOObOKkey.html?1" target="blank"><img src="./img/clouds.jpg" style="border: none; height:35px;width: 100px;"></a>
+                            Viewing times change throughout the year, so please check this page for current observing times and weather cancellations. The final decision on weather cancellations will be made <em>three hours</em> before the scheduled start time at the latest. For the latest cloud predictions at the observatory, go to current weather or click on the clouds: <a href="http://www.cleardarksky.com/c/UOObOKkey.html?1" target="blank"><img src="./img/clouds.jpg" style="border: none; height:35px;width: 100px;"></a>
                         </p><br>
-                        <img src="./img/map_updated.png" style="border: none; min-height:200px;min-width: 200px;">
+                        <img src="./img/map_updated.png" style="border: none; min-height:200px;min-width: 200px;height:400px;width: 200px;">
 
                         <p>
                             We have obtained permission for visitors to park in the Asp Parking Garage north of Lindsey on star party evenings.
@@ -263,6 +270,9 @@ html,body {
                 <!--#########-->
                 <div class="flex-container mainwrapper" style="color: rgba(130, 136, 212,1);font-size: 2.5em;padding-top: 150px;" id="currweather">
                     <h2>Current Weather</h2>
+                </div>
+                <div align="center">
+                    <img src="http://www.cleardarksky.com/c/UOObOKcsk.gif?c=2282410"></a>
                 </div>
                 <section id="weather" class="flex-container center mainwrapper" style="color: rgba(256,256,256,1);font-size: 30px">
                 </section>
@@ -280,10 +290,13 @@ html,body {
                                     <a><script>touch4("lunarsooners","ou",5,"","Email")</script></a>
                                 </li>
                                 <li>
-                                    <a href="https://nhn.ou.edu" class="btn btn-default btn-lg" target="blank"><i class="fa fa-map-marker fa-fw"></i><span class="network-name">Nielsen</span></a>
+                                    <a href="https://www.facebook.com/oulunarsooners/" class="btn btn-default btn-lg" target="blank"><i class="fa fa-facebook fa-fw"></i><span class="network-name">FB</span></a>
                                 </li>
                                 <li>
                                     <a href="https://twitter.com/OUStarParty" class="btn btn-default btn-lg" target="blank"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.nhn.ou.edu/" class="btn btn-default btn-lg" target="blank"><i class="fa fa-map-marker fa-fw"></i><span class="network-name">Where?</span></a>
                                 </li>
                                 <li>
                                     <a href="https://github.com/nickalaskreynolds/ouobservatory.git" class="btn btn-default btn-lg" target="blank"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
