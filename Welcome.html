@@ -6,7 +6,6 @@ Author: Nickalas Reynolds
 
 <!DOCTYPE html>
 <html lang="en">
-
 <!--####################-->
 <!-- Header information -->
 <!--####################-->
@@ -36,23 +35,23 @@ Author: Nickalas Reynolds
     <!--###################-->
     <!-- Plugin JavaScript -->
     <!--###################-->
-    <script src="./js/collapse_toolbar.js"></script>
-    <script src="./js/jquery_easing.js"></script>
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/weather.js"></script>
-    <script src="./js/jquery.simpleWeather.min.js"></script>
-    <script src="./js/moment.js"></script>
+    <script src="./js/collapse_toolbar.js" language="Javascript"></script>
+    <script src="./js/jquery_easing.js" language="Javascript"></script>
+    <script src="./js/jquery.js" language="Javascript"></script>
+    <script src="./js/bootstrap.min.js" language="Javascript"></script>
+    <script src="./js/weather.js" language="Javascript"></script>
+    <script src="./js/jquery.simpleWeather.min.js" language="Javascript"></script>
+    <script src="./js/moment.js" language="Javascript"></script>
 
     <!--##########################-->
     <!-- E-obsfucation Javascript -->
     <!--##########################-->
-    <script src="./js/touch.js"></script>
+    <script src="./js/touch.js" language="Javascript"></script>
 
     <!--#######################################-->
     <!-- Modifies Website Based on Screen Size -->
     <!--#######################################-->
-    <script src="./js/collapse_toolbar.js"></script>
+    <script src="./js/collapse_toolbar.js" language="Javascript"></script>
     <style>
         /* For width 400px and larger: */
         @media only screen and (dev-min-width: 1024px) {
@@ -99,7 +98,7 @@ html,body {
             <div class="about clearfix navbar-fixed-bottom">
                 <p class="pull-left">Star Party</p>
                 <div class="social pull-right">
-                    <script>touch3("loonersooners","ou",5,"")</script>
+                    <script language="Javascript">touch3("loonersooners","ou",5,"")</script>
                     <a href="https://twitter.com/OUStarParty" target="blank"><i class="fa fa-twitter"></i></a>
                     <a href="https://github.com/nickalaskreynolds/ouobservatory.git" target="blank"> <i class="fa fa-github"></i></a>
                 </div>
@@ -160,9 +159,11 @@ html,body {
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 3em;" id="obsdate"></div><br>
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2.5em;" id="obsmess"></div><br>
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2em;">
-                            <a class="twitter-timeline" href="https://twitter.com/LunarSooners?ref_src=twsrc%5Etfw">Tweets by LunarSooners</a> 
+                            <a class="twitter-timeline" data-width="300" data-height="300" data-theme="dark" href="https://twitter.com/OUStarParty?ref_src=twsrc%5Etfw"><i class="fa fa-twitter"></i> Tweets @OUStarParty</a></div><br>
+                        <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2em;">
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><i class="fa fa-twitter"></i> re-Tweet</a>
                         </div>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" language="Javascript"></script> 
                     </div>  
                 </div>
 
@@ -325,7 +326,7 @@ html,body {
     <!-- Plugin JavaScript -->
     <!--###################-->
     <!-- populates the observation date and message -->
-    <script>
+    <script language="Javascript">
         function populateObs(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -340,7 +341,7 @@ html,body {
         populateObs('./Website.properties');
     </script>
     <!-- Creates the list of stars to be observed -->
-    <script>
+    <script language="Javascript">
         function obsStars(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -357,7 +358,7 @@ html,body {
         obsStars('./Website.properties');
     </script>
     <!-- The next 4 JS populate the images and references for the above stars-->
-    <script>
+    <script language="Javascript">
         function popStar0(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -369,7 +370,7 @@ html,body {
         }
         popStar0('./Website.properties');
     </script>
-    <script>
+    <script language="Javascript">
         function popStar1(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -381,7 +382,7 @@ html,body {
         }
         popStar1('./Website.properties');
     </script>
-    <script>
+    <script language="Javascript">
         function popStar2(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -393,7 +394,7 @@ html,body {
         }
         popStar2('./Website.properties');
     </script>
-    <script>
+    <script language="Javascript">
         function popStar3(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -406,7 +407,7 @@ html,body {
         popStar3('./Website.properties');
     </script>
     <!-- Gives the Name of the upcoming schedule -->
-    <script>
+    <script language="Javascript">
         function timelineSched(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -420,7 +421,7 @@ html,body {
         timelineSched('./Website.properties');
     </script>
     <!-- Gives the Name of the upcoming Months-->
-    <script>
+    <script language="Javascript">
         function timelineSched(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -439,7 +440,7 @@ html,body {
         timelineSched('./currentschedule.properties');
     </script>
     <!-- Gives the Dates of the upcoming Months-->
-    <script>
+    <script language="Javascript">
         function timelineSched(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
