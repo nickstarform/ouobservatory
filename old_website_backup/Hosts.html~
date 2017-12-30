@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Since nobody seems to ever comment this stuff, I've stepping in here and left some notes for you as I've had to figure things out.  Thank me later.  -Paul
+<!-- This code obviosuly updates the host subpage, for the Ou observatory websites public star parties -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20150408" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Hosts</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Hosts_files/Hosts.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Hosts_files/HostsIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Hosts_files/Hosts.js"></script>
+  </head>
+  <body style="background: rgb(1, 12, 96); margin: 0pt; " onload="onPageLoad();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  text-align: left; width: 700px; " id="body_content">
+        <div style="background: transparent url(Hosts_files/backgroundimage_1.jpg) no-repeat scroll center center; width: 700px; ">
+          <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+            <div style="height: 12px; width: 11px;  height: 12px; left: 110px; position: absolute; top: 29px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Hosts_files/shapeimage_1.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 670px; position: absolute; top: 99px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Hosts_files/shapeimage_2.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 440px; position: absolute; top: 284px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Hosts_files/shapeimage_3.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 150px; position: absolute; top: 393px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Hosts_files/shapeimage_4.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 450px; position: absolute; top: 29px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Hosts_files/shapeimage_5.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div id="id1" style="height: 30px; left: 0px; position: absolute; top: 8px; width: 700px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_700_30" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style"><a class="class1" title="http://observatory.ou.edu/Welcome.html" href="http://observatory.ou.edu/Welcome.html">Welcome</a>        <a class="class2" title="http://observatory.ou.edu/Photos.html" href="http://observatory.ou.edu/Photos.html">Photos</a>        <a class="class3" title="http://observatory.ou.edu/Hosts.html" href="http://observatory.ou.edu/Hosts.html">Hosts</a>        <a class="class4" title="http://www.ou.edu/lunarsooners/index/Welcome.html" href="http://www.ou.edu/lunarsooners/index/Welcome.html">Lunar Sooners</a></p>
+                </div>
+              </div>
+            </div>
+            <div style="clear: both; height: 38px; line-height: 38px; " class="spacer"> </div>
+          </div>
+          <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+            <div style="height: 1px; width: 630px;  height: 1px; left: 35px; position: absolute; top: 3px; width: 630px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 630px; ">
+                <img src="Hosts_files/shapeimage_6.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+              </div>
+            </div>
+          </div>
+          <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+
+
+            
+
+
+            <div style="height: 208px; width: 630px;  height: 208px; left: 35px; position: absolute; top: 17px; width: 630px; z-index: 1; " class="tinyText reflection_0">
+              <div style="position: relative; width: 630px; ">
+                <img src="Hosts_files/shapeimage_7.png" alt="" style="height: 208px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 27px; width: 27px;  height: 27px; left: 1px; position: absolute; top: -8px; width: 27px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 27px; ">
+                <img src="Hosts_files/shapeimage_8.png" alt="" style="height: 25px; left: 0px; position: absolute; top: 0px; width: 27px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 27px; width: 27px;  height: 27px; left: 111px; position: absolute; top: 262px; width: 27px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 27px; ">
+                <img src="Hosts_files/shapeimage_9.png" alt="" style="height: 25px; left: 0px; position: absolute; top: 0px; width: 27px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 45px; position: absolute; top: 300px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Hosts_files/shapeimage_10.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 513px; position: absolute; top: 651px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Hosts_files/shapeimage_11.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 35px; position: absolute; top: 1538px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Hosts_files/shapeimage_12.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 173px; position: absolute; top: -29px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Hosts_files/shapeimage_13.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 14px; width: 15px;  height: 14px; left: 591px; position: absolute; top: -36px; width: 15px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 15px; ">
+                <img src="Hosts_files/shapeimage_14.png" alt="" style="height: 13px; left: 0px; position: absolute; top: 0px; width: 15px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 14px; width: 15px;  height: 14px; left: 674px; position: absolute; top: -16px; width: 15px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 15px; ">
+                <img src="Hosts_files/shapeimage_15.png" alt="" style="height: 13px; left: 0px; position: absolute; top: 0px; width: 15px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 27px; width: 27px;  height: 27px; left: 601px; position: absolute; top: 577px; width: 27px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 27px; ">
+                <img src="Hosts_files/shapeimage_16.png" alt="" style="height: 25px; left: 0px; position: absolute; top: 0px; width: 27px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 653px; position: absolute; top: 276px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Hosts_files/shapeimage_17.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 113px; position: absolute; top: 1210px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Hosts_files/shapeimage_18.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+<!--  From here the formatting breaks out into a chunk you have to update each semester.  Unfortunatly, as currently written things arn't 'relative' and you have to bump the 'top: ####' values down to shift everything/make space for the new semesters host data. I've restructured things in a pattern, so try to stick to it so it's logical to the next user as to how to update it. -->
+
+<!-- Basically, it goes *code block for subtitle*, *block for star party dates*, *block for hosts*  -->
+
+            <div id="id1" style="height: 38px; left: 35px; position: absolute; top: 2350px; width: 630px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+              <div class="text-content style_External_630_38" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_2">Fall 2013 Hosts</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id2" style="height: 340px; left: 96px; position: absolute; top: 2400px; width: 113px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_113_340" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_5">September 4:<br /></p>
+                  <p class="paragraph_style_5">September 11:<br /></p>
+                  <p class="paragraph_style_5">September 18:<br /></p>
+                  <p class="paragraph_style_5">September 25:<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">October 2:<br /></p>
+                  <p class="paragraph_style_5">October 9:<br /></p>
+                  <p class="paragraph_style_3">October 16:<br /></p>
+                  <p class="paragraph_style_5">October 23:<br /></p>
+                  <p class="paragraph_style_3">October 30:<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">November 6:<br /></p>
+                  <p class="paragraph_style_5">November 13:<br /></p>
+                  <p class="paragraph_style_5">November 20:<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_5">December 4:</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id3" style="height: 354px; left: 360px; position: absolute; top: 2400px; width: 244px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_244_354" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_5">Jeremy Lusk, Brian Friesen<br /></p>
+                  <p class="paragraph_style_5">Tim Miller, Sara Barber<br /></p>
+                  <p class="paragraph_style_5">Tim Miller, Paul Canton<br /></p>
+                  <p class="paragraph_style_5">Malia Jenks, Sara Barber<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Paul Canton, Rhiannon Griffin<br /></p>
+                  <p class="paragraph_style_5">Erin Cooper, Paul Canton<br /></p>
+                  <p class="paragraph_style_3">Jeremy Lusk, Tim Miller<br /></p>
+                  <p class="paragraph_style_5">Malia Jenks, Brian Friesen<br /></p>
+                  <p class="paragraph_style_3">Rhiannon Griffin, Erin Cooper<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Mi Dai, Jenna Nugent, Sara Barber<br /></p>
+                  <p class="paragraph_style_5">Brian Friesen, Mike Malatesta<br /></p>
+                  <p class="paragraph_style_5">Malia Jenks, Rhiannon Griffin<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_5">Jeremy Lusk, Erin Cooper</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id4" style="height: 340px; left: 209px; position: absolute; top: 2400px; width: 151px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_151_340" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Dr. Xinyu Dai<br /></p>
+                  <p class="paragraph_style_5">Dr. Xinyu Dai<br /></p>
+                  <p class="paragraph_style_5">Dr. Mukremin Kilic<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Dr. Jaimie Lomax<br /></p>
+                  <p class="paragraph_style_3">Dr. Karen Leighly<br /></p>
+                  <p class="paragraph_style_5">Dr. John Wisniewski<br /></p>
+                  <p class="paragraph_style_3">Dr. Karen Leighly<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Dr. John Wisniewski<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_5">Dr. Karen Leighly</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id5" style="height: 38px; left: 35px; position: absolute; top: 1900px; width: 630px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+              <div class="text-content style_External_630_38" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_2">Spring 2013 Hosts</p>
+                </div>
+              </div>
+            </div>
+
+
+<!-- I have no idea what the pattern to the madess was with white/gray almost alternating, but not quite (para style 3 vs Body). Whatevs. -->
+            <div id="id6" style="height: 394px; left: 112px; position: absolute; top: 1950px; width: 103px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_103_394" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_3">January 23:<br /></p>
+                  <p class="Body">January 30:<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">February 6:<br /></p>
+                  <p class="Body">February 13:<br /></p>
+                  <p class="paragraph_style_3">February 20:<br /></p>
+                  <p class="Body">February 27:<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">March 6:<br /></p>
+                  <p class="Body">March 13:<br /></p>
+                  <p class="Body">March 27:<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">April 3:<br /></p>
+                  <p class="paragraph_style_3">April 10:<br /></p>
+                  <p class="paragraph_style_3">April 17:<br /></p>
+                  <p class="Body">April 24:<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_4"><span class="style_1">May 1:  </span>  <br /></p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id7" style="height: 394px; left: 369px; position: absolute; top: 1950px; width: 219px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_219_394" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_3">Jeremy Lusk, Brian Friesen<br /></p>
+                  <p class="Body">Rhiannon Griffin, Jenna Nugent<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">Rhiannon Griffin, Brian Friesen<br /></p>
+                  <p class="Body">Jeremy Lusk, Sara Barber<br /></p>
+                  <p class="paragraph_style_3">Brian Friesen, Sara Barber<br /></p>
+                  <p class="Body">Jenna Nugent, Sara Barber<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">Rhiannon Griffin, Aaron Morris<br /></p>
+                  <p class="Body">Tim Miller, Sara Barber<br /></p>
+                  <p class="Body">Jeremy Lusk, Brian Friesen<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">Paul Canton, Malia Jenks<br /></p>
+                  <p class="paragraph_style_3">Paul Canton, Rhiannon Griffin<br /></p>
+                  <p class="paragraph_style_3">Erin Cooper, Jeremy Lusk<br /></p>
+                  <p class="Body">Erin Cooper, Malia Jenks<br /></p>
+                  <p class="Body"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_3">Tim Miller, Erin Cooper</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id8" style="height: 394px; left: 218px; position: absolute; top: 1950px; width: 151px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_151_394" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_3">Dr. Mukremin Kilic<br /></p>
+                  <p class="Body">Dr. Xinyu Dai<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">Dr. Karen Leighly<br /></p>
+                  <p class="Body">Dr. Xinyu Dai<br /></p>
+                  <p class="paragraph_style_3">Dr. Mukremin Kilic<br /></p>
+                  <p class="Body">Dr. Mukremin Kilic<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">Dr. Karen Leighly<br /></p>
+                  <p class="Body">Dr. Richard Henry<br /></p>
+                  <p class="Body">Dr. Karen Leighly<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="paragraph_style_3">Dr. Richard Henry<br /></p>
+                  <p class="paragraph_style_3">Dr. John Wisniewski<br /></p>
+                  <p class="paragraph_style_3">Dr. Karen Leighly<br /></p>
+                  <p class="Body">Dr. John Wisniewski<br /></p>
+                  <p class="Body"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_3">Dr. Mukremin Kilic</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+           <div id="id9" style="height: 38px; left: 35px; position: absolute; top: 1500px; width: 630px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+              <div class="text-content style_External_630_38" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_2">Fall 2014 Hosts</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+           <div id="id10" style="height: 331px; left: 92px; position: absolute; top: 1550px; width: 113px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_113_331" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_1">August 27:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">September 3:<br /></p>
+                  <p class="paragraph_style_1">September 10:<br /></p>
+                  <p class="paragraph_style_1">September 17:<br /></p>
+                  <p class="paragraph_style_1">September 24:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">October 1:<br /></p>
+                  <p class="paragraph_style_1">October 8:<br /></p>
+                  <p class="paragraph_style_1">October 15:<br /></p>
+                  <p class="paragraph_style_1">October 22:<br /></p>
+                  <p class="paragraph_style_1">October 29:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">November 5:<br /></p>
+                  <p class="paragraph_style_1">November 12:<br /></p>
+                  <p class="paragraph_style_1">November 19:<br /></p>
+                  <p class="paragraph_style_1">November 26:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_1">December 3:</p>
+                </div>
+              </div>
+            </div>
+
+
+
+           <div id="id11" style="height: 331px; left: 205px; position: absolute; top: 1550px; width: 402px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_402_331" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_1">Beth Stetzler, Brian Friesen, Evan Rich<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Brian Friesen, Tim Miller<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Steven Silverberg, Shaun Steele<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Paul Canton, Shaun Steele<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Xiaoxian Duan, Erin Cooper, Mike Malatesta<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Evan Rich, Rhiannon Griffin<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Steven Silverberg, Xiaoxian Duan<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Jamie Lomax, Paul Canton<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Paul Canton, Claudia Belardi<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Steven Silverberg, Xiaoxian Duan<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Jamie Lomax, Kyra Dame<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Rhiannon Griffin, Erin Cooper<br /></p>
+                  <p class="paragraph_style_1">Beth Stetzler, Tim Miller, Jenna Miller<br /></p>
+                  <p class="paragraph_style_1">** THANKSGIVING **<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_1">Beth Stetzler, Steven Silverberg</p>
+                </div>
+              </div>
+           </div>
+
+
+
+            <div id="id12" style="height: 38px; left: 35px; position: absolute; top: 1075px; width: 630px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+              <div class="text-content style_External_630_38" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_2">Spring 2014 Hosts</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id13" style="height: 374px; left: 121px; position: absolute; top: 1125px; width: 113px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_113_374" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_5">January 22:<br /></p>
+                  <p class="paragraph_style_5">January 29:<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">February 5:<br /></p>
+                  <p class="paragraph_style_5">February 12:<br /></p>
+                  <p class="paragraph_style_5">February 19:<br /></p>
+                  <p class="paragraph_style_5">February 26:<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">March 5:<br /></p>
+                  <p class="paragraph_style_5">March 12:<br /></p>
+                  <p class="paragraph_style_5">March 19:<br /></p>
+                  <p class="paragraph_style_5">March 26:<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">April 2:<br /></p>
+                  <p class="paragraph_style_5">April 9:<br /></p>
+                  <p class="paragraph_style_5">April 16:<br /></p>
+                  <p class="paragraph_style_5">April 23:<br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_5">April 30:</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id14" style="height: 374px; left: 233px; position: absolute; top: 1125px; width: 402px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_345_374" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_5">Claudia Belardi, Beth Stetzler, Sara Barber<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler, Jeremy Lusk<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Mike Malatesta, Tim Miller<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler, Evan Rich<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler, Steven Silverberg<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler, Brian Friesen<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler, Rhiannon Griffin<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler, Jenna Nugent<br /></p>
+                  <p class="paragraph_style_5">**SPRING BREAK**<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler<br /></p>
+                  <p class="paragraph_style_5"><br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler, Paul Canton<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler<br /></p>
+                  <p class="paragraph_style_5">Claudia Belardi, Beth Stetzler<br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_5">Claudia Belardi, Beth Stetzler</p>
+                </div>
+              </div>
+            </div>
+            
+  
+
+
+	   <div id="id15" style="height: 38px; left: 35px; position: absolute; top: 700px; width: 675px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+              <div class="text-content style_External_630_38" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_2">Fall 2015 Hosts</p>
+                </div>
+              </div>
+            </div>
+            
+
+            <div id="id16" style="height: 297px; left: 186px; position: absolute; top: 750px; width: 113px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_113_297" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_1">September 2:<br /></p>
+                  <p class="paragraph_style_1">September 9:<br /></p>
+                  <p class="paragraph_style_1">September 16:<br /></p>
+                  <p class="paragraph_style_1">September 23:<br /></p>
+                  <p class="paragraph_style_1">September 30:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">October 7:<br /></p>
+                  <p class="paragraph_style_1">October 14:<br /></p>
+                  <p class="paragraph_style_1">October 21:<br /></p>
+                  <p class="paragraph_style_1">October 28:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">November 4:<br /></p>
+                  <p class="paragraph_style_1">November 11:<br /></p>
+                  <p class="paragraph_style_1">November 18:<br /></p>
+                  <p class="paragraph_style_1">November 25:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">December 2:<br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_1"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div id="id17" style="height: 297px; left: 299px; position: absolute; top: 750px; width: 244px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_244_297" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_1">Shaun Steele, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Mi Dai, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Evan Rich, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Jenna Nugent, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Matt Clement, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">Steven Silverberg, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Rhiannon Griffin, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">Francis MacInnis, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Evan Rich, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">Timothy Miller<br /></p>
+                  <p class="paragraph_style_1">**Thanksgiving Break**<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+                  <p class="paragraph_style_1">Timothy Miller<br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_1"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div id="id18" style="height: 38px; left: 35px; position: absolute; top: 275px; width: 630px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+              <div class="text-content style_External_630_38" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_2">Spring 2016 Hosts</p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div id="id19" style="height: 297px; left: 145px; position: absolute; top: 325px; width: 113px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_113_297" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_1">January 20:<br /></p>
+                  <p class="paragraph_style_1">January 27:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+
+                  <p class="paragraph_style_1">February 3:<br /></p>
+                  <p class="paragraph_style_1">February 10:<br /></p>
+                  <p class="paragraph_style_1">February 17:<br /></p>
+                  <p class="paragraph_style_1">February 24:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+
+                  <p class="paragraph_style_1">March 2:<br /></p>
+                  <p class="paragraph_style_1">March 9:<br /></p>
+                  <p class="paragraph_style_1">March 16:<br /></p>
+                  <p class="paragraph_style_1">March 23:<br /></p>
+                  <p class="paragraph_style_1">March 30:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+
+                  <p class="paragraph_style_1">April 6:<br /></p>
+                  <p class="paragraph_style_1">April 13:<br /></p>
+                  <p class="paragraph_style_1">April 20:<br /></p>
+                  <p class="paragraph_style_1">April 27:<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+
+                  <p class="paragraph_style_1">May 4:<br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_1"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div id="id20" style="height: 297px; left: 250px; position: absolute; top: 325px; width: 345px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_244_297" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_1">Paul Canton<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Shaun Steele<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+
+                  <p class="paragraph_style_5">Paul Canton, Malia Jenks, Saloni Bhatiani<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Rhiannon Griffin<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Jenna Nugent, Timothy Miller
+                  <p class="paragraph_style_1">Paul Canton, Matt Clement<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+
+                  <p class="paragraph_style_1">Paul Canton, Rhiannon Griffin<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Mi Dai<br /></p>
+                  <p class="paragraph_style_1">**Spring Break**<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Shaun Steele<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Kyra Dame<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+
+                  <p class="paragraph_style_1">Paul Canton, Evan Rich<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Malia Jenks<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Kyra Dame<br /></p>
+                  <p class="paragraph_style_1">Paul Canton, Jenna Nugent, Timothy Miller<br /></p>
+                  <p class="paragraph_style_1"><br /></p>
+
+                  <p class="paragraph_style_1">Paul Canton<br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_1"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+<!-- the block below is useful for setting the page length, which you'll probably have to expand.  Tweak the 'height' parameter below -->
+
+            <div style="height: 2500px; line-height: 2500px; " class="spacer"> </div>
+          </div>
+
+<!-- Also tweak the other height parameter below this to extend down the background strip if need be -->
+          <div style="height: 550px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+<!--            <a href="http://apple.com/mac" title="http://apple.com/mac"><img src="Hosts_files/mwmac_white.png" alt="Made on a Mac" style="border: none; height: 50px; left: 280px; opacity: 0.59; position: absolute; top: 363px; width: 139px; z-index: 1; " id="id20" /></a>  Yea, w/e you could have made this on any OS!  Maintained on a Redhat OS!!  -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

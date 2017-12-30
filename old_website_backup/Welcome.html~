@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--This is the main body of code for the Ou star party welcome page! -->
+<!--I've commented a bunch of old code thats useful in the future, sure its messy but it saves your time! -Paul -->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20150409" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Welcome_files/Welcome.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Welcome_files/WelcomeIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <style type="text/css">
+/*<![CDATA[*/
+	@import "Scripts/Widgets/HTMLRegion/Paste.css";
+/*]]>*/
+</style>
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Scripts/iWebMediaGrid.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/HTMLRegion/Paste.js"></script>
+    <script type="text/javascript" src="Welcome_files/Welcome.js"></script>
+  </head>
+  <body style="background: rgb(1, 12, 96); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  text-align: left; width: 700px; " id="body_content">
+        <div style="background: transparent url(Welcome_files/backgroundimage_1.jpg) no-repeat scroll center center; width: 700px; ">
+          <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+            <div style="height: 12px; width: 11px;  height: 12px; left: 110px; position: absolute; top: 29px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Welcome_files/shapeimage_1.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 670px; position: absolute; top: 99px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Welcome_files/shapeimage_2.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 440px; position: absolute; top: 284px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Welcome_files/shapeimage_3.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 230px; position: absolute; top: 1500px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Welcome_files/shapeimage_4.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 150px; position: absolute; top: 393px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Welcome_files/shapeimage_5.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 12px; width: 11px;  height: 12px; left: 450px; position: absolute; top: 29px; width: 11px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 11px; ">
+                <img src="Welcome_files/shapeimage_6.png" alt="" style="height: 11px; left: 0px; position: absolute; top: 0px; width: 11px; " />
+              </div>
+            </div>
+            
+
+
+            <div id="id1" style="height: 30px; left: 0px; position: absolute; top: 8px; width: 700px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_700_30" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style"><a class="class1" title="http://observatory.ou.edu/Welcome.html" href="http://observatory.ou.edu/Welcome.html">Welcome</a>        <a title="http://observatory.ou.edu/Photos.html" href="http://observatory.ou.edu/Photos.html">Photos</a>        <a title="http://observatory.ou.edu/Hosts.html" href="http://observatory.ou.edu/Hosts.html">Hosts</a>        <a title="http://www.ou.edu/lunarsooners/index/Welcome.html" href="http://www.ou.edu/lunarsooners/index/Welcome.html">Lunar Sooners</a></p>
+                </div>
+              </div>
+            </div>
+            <div style="clear: both; height: 38px; line-height: 38px; " class="spacer"> </div>
+          </div>
+          <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+            <div style="height: 1px; width: 630px;  height: 1px; left: 35px; position: absolute; top: 3px; width: 630px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 630px; ">
+                <img src="Welcome_files/shapeimage_7.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+
+            <div style="height: 142px; width: 142px;  height: 142px; left: 496px; position: absolute; top: 429px; width: 142px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <a href="http://en.wikipedia.org/wiki/Jupiter" title="http://en.wikipedia.org/wiki/Jupiter" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/File-Jupiter_by_Cassini-Huygens.jpg" alt="" style="border: none; height: 142px; width: 142px; " /></a>
+            </div>
+
+
+<!--
+            <div style="height: 142px; width: 142px;  height: 142px; left: 496px; position: absolute; top: 429px; width: 142px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <a href="http://en.wikipedia.org/wiki/Uranus" title="http://en.wikipedia.org/wiki/Uranus" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/Uranus2.jpg" alt="" style="border: none; height: 142px; width: 142px; " /></a>
+            </div>
+-->            
+
+
+            <div style="height: 142px; width: 187px;  height: 142px; left: 354px; position: absolute; top: 429px; width: 187px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <a href="http://en.wikipedia.org/wiki/Double_Cluster" title="http://en.wikipedia.org/wiki/Double_Cluster" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/Double_Cluster.jpg" alt="" style="border: none; height: 142px; width: 142px; " /></a>
+            </div>
+            
+
+<!--
+            <div style="height: 142px; width: 142px;  height: 142px; left: 212px; position: absolute; top: 429px; width: 142px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <a href="https://en.wikipedia.org/wiki/Andromeda_Galaxy" title="https://en.wikipedia.org/wiki/Andromeda_Galaxy" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/File-Andromeda_Galaxy_(with_h-alpha).jpg" alt="" style="border: none; height: 142px; width: 142px; " /></a>
+            </div>
+-->
+
+<!--
+           <div style="height: 142px; width: 142px;  height: 142px; left: 212px; position: absolute; top: 429px; width: 142px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <a href="https://en.wikipedia.org/wiki/Almaak" title="https://en.wikipedia.org/wiki/Almaak" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/albireo_wikipedia.jpg" alt="" style="border: none; height: 142px; width: 142px; " /></a>
+            </div> <!-- Yes, I cheated here and just used a photo of Alberio rather than Almaak.  It illustrates the concept and in either case the red star is brighter so they look pretty much the same -->
+
+           <div style="height: 142px; width: 142px;  height: 142px; left: 212px; position: absolute; top: 429px; width: 142px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <a href="https://en.wikipedia.org/wiki/Mars" title="https://en.wikipedia.org/wiki/Mars" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/File-Mars_Hubble.jpg" alt="" style="border: none; height: 142px; width: 142px; " /></a>
+            </div> <!-- Yes, I cheated here and just used a photo of Alberio rather than Almaak.  It illustrates the concept and in either case the red star is brighter so they look pretty much the same -->
+
+            <div style="height: 142px; width: 147px;  height: 142px; left: 64px; position: absolute; top: 429px; width: 147px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <a href="https://en.wikipedia.org/wiki/Orion_Nebula" title="https://en.wikipedia.org/wiki/Orion_Nebula" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/File-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg" alt="" style="border: none; height: 142px; width: 148px; " /></a>
+            </div>
+            
+<!--
+            <div style="height: 142px; width: 147px;  height: 142px; left: 64px; position: absolute; top: 429px; width: 147px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <a href="http://en.wikipedia.org/wiki/Saturn_Nebula" title="http://en.wikipedia.org/wiki/Saturn_Nebula" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/NGC_7009_Hubble.jpg" alt="" style="border: none; height: 142px; width: 148px; " /></a>
+            </div>
+-->
+
+            <div id="id2" style="height: 53px; left: 31px; position: absolute; top: 1007px; width: 632px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_632_53" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">Check our Twitter feed for the latest.</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div style="height: 208px; width: 630px;  height: 208px; left: 35px; position: absolute; top: 17px; width: 630px; z-index: 1; " class="tinyText reflection_0">
+              <div style="position: relative; width: 630px; ">
+                <img src="Welcome_files/shapeimage_8.png" alt="" style="height: 208px; left: 0px; position: absolute; top: 0px; width: 630px; " />
+              </div>
+            </div>
+            
+
+<!-- Paul rewrote this block of code, because it sucked.  The html links weren't working.  -->
+
+	    <div style="position: absolute;left: 18px;top: 1414px;width:630px;height:auto;padding:3px;z-index: 1;border:15px solid navy;border-spacing: 1px;">
+	      <div align="center">
+		<p style="font-size:45px;color:white;">General Star Party Information</p>
+                <p style="font-size:125%;color:blue;">Every Wednesday night while OU is in session, the Physics and Astronomy department sponsors <span class="style_1">FREE</span> public star parties on the roof of the observatory, which is located on the East side of Asp Avenue just South of Lindsey Avenue. Look for the building with the white dome on top. To reach the roof, climb the exterior staircase on the West side of the building.</p>
+		<p style="font-size:125%;color:blue;"><span class="style_1">Note:</span> Regrettably, the observatory roof is currently wheelchair inaccessible. This staircase is the only way to reach the roof.<br /></p>
+                <p style="font-size:125%;color:blue;">A typical night could include a planet or two, binary stars, star clusters, or maybe one of the brighter nebulae. All ages are welcome, but we ask that younger children be under adult supervision at all times. <br /></p>
+		<p style="font-size:125%;color:blue;">Viewing times change throughout the year, so please check this page for current observing times and weather cancellations. The final decision on weather cancellations will be made <span class="style_1">three hours</span> before the scheduled start time at the latest. For the latest cloud predictions at the observatory, click on the clouds: <a href="http://www.cleardarksky.com/c/UOObOKkey.html?1" title="http://www.cleardarksky.com/c/UOObOKkey.html?1" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><img src="Welcome_files/CLOUD1550px_0.JPG" alt="" style="border: none; height: 30px; width: 175px; " /></a><span style="line-height: 10px; " class="style_2"><br /></span></p>
+
+
+		<img src="Welcome_files/map_updated.png" alt="" style="border: none; height: 309px; width: 300px; " />
+
+<!-- 		<p style="font-size:660%;color:blue;"><br /></p> -->
+                <p style="font-size:100%;">Parking was once found North of the observatory, however that lot has become a construction site in recent times.  We have obtained permission for visitors to park in the Asp Parking Garage north of Lindsey on star party evenings.<br /></p>
+	      </div>
+	    </div>
+
+
+
+<!--            <div style="height: 308px; width: 506px;  height: 308px; left: 97px; position: absolute; top: 2965px; width: 506px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <img src="Welcome_files/map.jpg" alt="" style="border: none; height: 309px; width: 506px; " />
+            </div>
+Image no longer accurate, this is the old parking map which was shifted off the bottom of the page.            
+-->
+
+            <div style="height: 27px; width: 27px;  height: 27px; left: 1px; position: absolute; top: -8px; width: 27px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 27px; ">
+                <img src="Welcome_files/shapeimage_9.png" alt="" style="height: 25px; left: 0px; position: absolute; top: 0px; width: 27px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 27px; width: 27px;  height: 27px; left: 111px; position: absolute; top: 262px; width: 27px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 27px; ">
+                <img src="Welcome_files/shapeimage_10.png" alt="" style="height: 25px; left: 0px; position: absolute; top: 0px; width: 27px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 45px; position: absolute; top: 300px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Welcome_files/shapeimage_11.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 513px; position: absolute; top: 390px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Welcome_files/shapeimage_12.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 35px; position: absolute; top: 1568px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Welcome_files/shapeimage_13.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 173px; position: absolute; top: -29px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Welcome_files/shapeimage_14.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 14px; width: 15px;  height: 14px; left: 591px; position: absolute; top: -36px; width: 15px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 15px; ">
+                <img src="Welcome_files/shapeimage_15.png" alt="" style="height: 13px; left: 0px; position: absolute; top: 0px; width: 15px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 14px; width: 15px;  height: 14px; left: 674px; position: absolute; top: -16px; width: 15px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 15px; ">
+                <img src="Welcome_files/shapeimage_16.png" alt="" style="height: 13px; left: 0px; position: absolute; top: 0px; width: 15px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 27px; width: 27px;  height: 27px; left: 601px; position: absolute; top: 1530px; width: 27px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 27px; ">
+                <img src="Welcome_files/shapeimage_17.png" alt="" style="height: 25px; left: 0px; position: absolute; top: 0px; width: 27px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 653px; position: absolute; top: 276px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Welcome_files/shapeimage_18.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 15px; width: 16px;  height: 15px; left: 113px; position: absolute; top: 395px; width: 16px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 16px; ">
+                <img src="Welcome_files/shapeimage_19.png" alt="" style="height: 14px; left: 0px; position: absolute; top: 0px; width: 16px; " />
+              </div>
+            </div>
+            <div class="com-apple-iweb-widget-HTMLRegion" id="widget0" style="height: 386px; left: 133px; opacity: 1.00; position: absolute; top: 1045px; width: 433px; z-index: 1; ">
+              <script type="text/javascript"><!--//--><![CDATA[//><!--
+    var widget0_htmlMarkupURL = ".//Welcome_files/widget0_markup.html";
+//--><!]]></script>
+              <div id="widget0-htmlRegion" class="html_region_widget"></div>
+            </div>
+            <script type="text/javascript"><!--//--><![CDATA[//><!--
+new Paste('widget0', 'Scripts/Widgets/HTMLRegion', 'Scripts/Widgets/SharedResources', '.', {"emptyLook": false});
+//--><!]]></script>
+            <div id="id4" style="height: 99px; left: 0px; position: absolute; top: 254px; width: 700px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_700_99" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+<!--                  <p style="padding-top: 0pt; " class="paragraph_style_8">This Week’s Star Party:<br /></p> -->
+                  <p style="padding-top: 0pt; " class="paragraph_style_8">OUr Next Star Party:<br /></p>
+                  <p class="paragraph_style_9"><span class="style_3">May 4th<br /></span></p> 
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_10"><span class="style_3">9:15-11:15pm</span></p> 
+<!--                  <p class="paragraph_style_9"><span class="style_3"> CANCELED <br /></span></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_10"><span class="style_3">   </span></p> -->
+                </div>
+              </div>
+            </div>
+            
+
+<!-- this is the current parking map, for the Asp garage
+            <div style="height: 309px; width: 506px;  height: 309px; left: 197px; position: absolute; top: 2015px; width: 506px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <img src="Welcome_files/map_updated.png" alt="" style="border: none; height: 309px; width: 300px; " />
+            </div> -->
+            
+
+
+            <div id="id5" style="height: 33px; left: 239px; position: absolute; top: 613px; width: 213px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_213_33" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_11">Spring 2016 Schedule</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id6" style="height: 135px; left: 149px; position: absolute; top: 670px; width: 183px; z-index: 1; " class="style_SkipStroke_3 shape-with-text stroke_1">
+              <div class="text-content graphic_textbox_layout_style_default_External_181_133" style="padding: 1px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_12">January<br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_13">20    06:45 - 08:45 pm    </p>
+                  <p class="paragraph_style_13">27    06:45 - 08:45 pm <br /></p>
+                  <p class="paragraph_style_13">      <br /></p>
+                  <p class="paragraph_style_13">  <br /></p>
+                  <p class="paragraph_style_13">  <br /></p>
+
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id7" style="height: 135px; left: 368px; position: absolute; top: 669px; width: 183px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_2">
+              <div class="text-content graphic_textbox_layout_style_default_External_181_133" style="padding: 1px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_12">February<br /></p>
+
+                  <p class="paragraph_style_13">3      07:00 - 09:00 pm <br /></p>
+                  <p class="paragraph_style_13">10    07:00 - 09:00 pm    <br /></p>
+                  <p class="paragraph_style_13">17    07:15 - 09:15 pm <br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_13">24    07:15 - 09:15 pm</p>
+<!--
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_13"> TBA </p>
+-->
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id8" style="height: 135px; left: 50px; position: absolute; top: 838px; width: 183px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_3">
+              <div class="text-content graphic_textbox_layout_style_default_External_181_133" style="padding: 1px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_12">March<br /></p>
+                  <p class="paragraph_style_13">2      07:15 - 09:15 pm<br /></p>
+                  <p class="paragraph_style_13">9      07:30 - 09:30 pm  <br /></p>
+                  <p class="paragraph_style_13">16    SPRING BREAK  <br /></p>
+                  <p class="paragraph_style_13">23    08:45 - 10:45 pm  <br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_13">30    08:45 - 10:45 pm   </p>
+<!--
+                  <p class="paragraph_style_13"> TBA <br /></p>
+-->
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id9" style="height: 135px; left: 260px; position: absolute; top: 838px; width: 183px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_4">
+              <div class="text-content graphic_textbox_layout_style_default_External_181_133" style="padding: 1px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_12">April<br /></p>
+                  <p class="paragraph_style_13">6      08:45 - 10:45 pm<br /></p>
+                  <p class="paragraph_style_13">13    09:00 - 11:00 pm<br /></p>
+                  <p class="paragraph_style_13">20    09:00 - 11:00 pm<br /></p>
+                  <p class="paragraph_style_13">27    09:15 - 11:15 pm<br /></p>
+<!--                  <p style="padding-bottom: 0pt; " class="paragraph_style_13">29  09:00 - 11:00 pm</p>
+
+                  <p class="paragraph_style_13">TBA<br /></p>
+-->
+                </div>
+              </div>
+            </div>
+
+
+            <div id="id9" style="height: 135px; left: 475px; position: absolute; top: 838px; width: 183px; z-index: 1; " class="style_SkipStroke_4 shape-with-text stroke_4">
+              <div class="text-content graphic_textbox_layout_style_default_External_181_133" style="padding: 1px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_12">May<br /></p>
+                  <p class="paragraph_style_13">4      09:15 - 11:15 pm<br /></p>
+<!--                  <p style="padding-bottom: 0pt; " class="paragraph_style_13">29  09:00 - 11:00 pm</p>
+
+                  <p class="paragraph_style_13">TBA<br /></p>
+-->
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id10" style="height: 33px; left: 255px; position: absolute; top: 396px; width: 190px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_190_33" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_14">We Plan to Observe:</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id11" style="height: 28px; left: 64px; position: absolute; top: 543px; width: 147px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_147_28" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_15">The Orion Nebula</p>
+                </div>
+              </div>
+            </div>
+
+
+<!--
+            <div id="id11" style="height: 28px; left: 64px; position: absolute; top: 543px; width: 147px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_147_28" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_15">The Saturn Nebula</p>
+                </div>
+              </div>
+            </div>
+-->            
+
+
+
+<!--
+            <div id="id12" style="height: 27px; left: 211px; position: absolute; top: 544px; width: 142px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_142_27" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_15">Andromeda Galaxy</p>
+                </div>
+              </div>
+            </div>
+-->
+
+
+
+            <div id="id12" style="height: 27px; left: 211px; position: absolute; top: 544px; width: 142px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_142_27" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_15">Mars</p>
+                </div>
+              </div>
+            </div>
+
+
+
+<!--
+            <div id="id12" style="height: 27px; left: 211px; position: absolute; top: 544px; width: 142px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_142_27" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_15">Almaak</p>
+                </div>
+              </div>
+            </div>
+-->
+            
+
+
+            <div id="id13" style="height: 29px; left: 331px; position: absolute; top: 542px; width: 187px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_187_29" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_15">Double Cluster</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id14" style="height: 27px; left: 496px; position: absolute; top: 544px; width: 142px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_142_27" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_15">Jupiter</p>
+                </div>
+              </div>
+            </div>
+
+
+<!--
+            <div id="id14" style="height: 27px; left: 496px; position: absolute; top: 544px; width: 142px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_142_27" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_15">Uranus</p>
+                </div>
+              </div>
+            </div>
+-->
+
+            <div style="height: 2656px; line-height: 2656px; " class="spacer"> </div>
+          </div>
+          <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+            <div id="id16" style="height: 63px; left: 35px; position: absolute;top: -50px; width: 630px; z-index: 1; " class="style_SkipStroke shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_630_63" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-top: 0pt; " class="paragraph_style_16"><a onclick="window.open(this.href); return false;" title="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" href="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" onkeypress="window.open(this.href); return false;">Astrophysics Research at OU<br /></a></p>
+                  <p class="paragraph_style_16"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_17"><a title="mailto:lunarsooners@ou.edu?subject=Star Party" href="mailto:lunarsooners@ou.edu?subject=Star%20Party">Contact Us</a></p>
+		  <p style="line-height: 5px">
+                  <p style="padding-bottom: 0pt; color: black" class="paragraph_style_17">Page maintained by <a href="https://www.nhn.ou.edu/~canton/">Paul Canton</a>, the evil overlord of the Ou Star Party</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
