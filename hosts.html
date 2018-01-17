@@ -6,7 +6,6 @@ Author: Nickalas Reynolds
 
 <!DOCTYPE html>
 <html lang="en">
-
 <!--####################-->
 <!-- Header information -->
 <!--####################-->
@@ -29,26 +28,30 @@ Author: Nickalas Reynolds
     <!--###########-->
     <!-- Theme CSS -->
     <!--###########-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/grayscale.min.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!--###################-->
     <!-- Plugin JavaScript -->
     <!--###################-->
-    <script src="./js/collapse_toolbar.js"></script>
-    <script src="./js/jquery_easing.js"></script>
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/collapse_toolbar.js" language="Javascript"></script>
+    <script src="./js/jquery_easing.js" language="Javascript"></script>
+    <script src="./js/jquery.js" language="Javascript"></script>
+    <script src="./js/bootstrap.min.js" language="Javascript"></script>
+    <script src="./js/weather.js" language="Javascript"></script>
+    <script src="./js/jquery.simpleWeather.min.js" language="Javascript"></script>
+    <script src="./js/moment.js" language="Javascript"></script>
 
     <!--##########################-->
     <!-- E-obsfucation Javascript -->
     <!--##########################-->
-    <script src="./js/touch.js"></script>
+    <script src="./js/touch.js" language="Javascript"></script>
 
     <!--#######################################-->
     <!-- Modifies Website Based on Screen Size -->
     <!--#######################################-->
+    <script src="./js/collapse_toolbar.js" language="Javascript"></script>
     <style>
         /* For width 400px and larger: */
         @media only screen and (dev-min-width: 1024px) {
@@ -58,7 +61,6 @@ Author: Nickalas Reynolds
         }
         @media all and (min-width: 768px) {.lart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.lart .rart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.rart{-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}}
     </style>
-
 </head>
 
 <!-- decides background -->
@@ -124,6 +126,9 @@ html,body {
                         <a href="./hosts.html" style="color: rgb(60,207,23,1)">Hosts</a>
                     </li>
                     <li>
+                        <a href="./equipment.html" style="color: rgb(60,207,23,1)">Equipment</a>
+                    </li>
+                    <li>
                         <a href="./Welcome.html#contact" style="color: rgb(60,207,23,1)">Contact</a>
                     </li>
                     <li>
@@ -142,14 +147,16 @@ html,body {
         <div style="padding-top: 150px;">  
             <div id='grad1'>
 
-                <!--#################-->
-                <!-- Next Star Party -->
-                <!--#################-->
+                <!--##############-->
+                <!-- Hosts Header -->
+                <!--##############-->
+                <header>
                 <div style="padding-top: 50px;" width="100%" align="center" class="flex-container wrapper">
                     <div align="center">
                         <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 3em;">Hosts</div><br>
                     </div>  
                 </div>
+                </header>
                 <div id="hostlist"></div>
 
                 <!--########-->
