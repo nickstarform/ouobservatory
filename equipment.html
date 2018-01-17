@@ -1,0 +1,208 @@
+<!--Start of code -->
+<!-- 
+Name:   OU Observatory Website, Equipment
+Author: Nickalas Reynolds
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<!--####################-->
+<!-- Header information -->
+<!--####################-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OU Observatory">
+    <meta name="author" content="Nickalas Reynolds">
+
+    <title>OU Observatory</title>
+
+    <!--##############-->
+    <!-- Custom Fonts -->
+    <!--##############-->
+    <link href="./fonts/fa/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!--###########-->
+    <!-- Theme CSS -->
+    <!--###########-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/grayscale.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+
+    <!--###################-->
+    <!-- Plugin JavaScript -->
+    <!--###################-->
+    <script src="./js/jquery.js" language="Javascript"></script>
+    <script src="./js/jquery_easing.js" language="Javascript"></script>
+    <script src="./js/collapse_toolbar.js" language="Javascript"></script>
+    <script src="./js/bootstrap.min.js" language="Javascript"></script>
+    <script src="./js/moment.js" language="Javascript"></script>
+
+    <!--##########################-->
+    <!-- E-obsfucation Javascript -->
+    <!--##########################-->
+    <script src="./js/touch.js" language="Javascript"></script>
+
+    <!--#######################################-->
+    <!-- Modifies Website Based on Screen Size -->
+    <!--#######################################-->
+    <script src="./js/collapse_toolbar.js" language="Javascript"></script>
+    <style>
+        /* For width 400px and larger: */
+        @media only screen and (dev-min-width: 1024px) {
+            .parallax{
+                background-attachment:scroll
+            }
+        }
+        @media all and (min-width: 768px) {.lart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.lart .rart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.rart{-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}}
+    </style>
+</head>
+
+<!-- decides background -->
+<style type="text/css">
+html,body {
+    background: url('./img/hubble-ultra-deep-field.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+</style>
+<!--######################################-->
+<!-- Information to Display on front page -->
+<!--######################################-->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!--############-->
+    <!-- Navigation -->
+    <!--############-->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="./Welcome.html#page-top" style="color: rgb(60,207,23,1)">
+                    <i class="fa fa-play-circle"></i> <span class="light">Welcome</span>
+                </a>
+            </div>
+
+            <!--####################-->
+            <!-- Bottom contact bar -->
+            <!--####################-->
+            <div class="about clearfix navbar-fixed-bottom">
+                <p class="pull-left">Star Party</p>
+                <div class="social pull-right">
+                    <script>touch3("loonersooners","ou",5,"")</script>
+                    <a href="https://twitter.com/OUStarParty" target="blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/nickalaskreynolds/ouobservatory.git" target="blank"> <i class="fa fa-github"></i></a>
+                </div>
+            </div>
+
+            <!--#################-->
+            <!-- Navbar toggling -->
+            <!--#################-->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="./Welcome.html"></a>
+                    </li>
+                    <li>
+                        <a href="./Welcome.html#obsschedule" style="color: rgb(60,207,23,1)">Schedule</a>
+                    </li>
+                    <li>
+                        <a href="./Welcome.html#currweather" style="color: rgb(60,207,23,1)">Info</a>
+                    </li>
+                    <li>
+                        <a href="./photos.html" style="color: rgb(60,207,23,1)">Photos</a>
+                    </li>
+                    <li>
+                        <a href="./hosts.html" style="color: rgb(60,207,23,1)">Hosts</a>
+                    </li>
+                    <li>
+                        <a href="./equipment.html" style="color: rgb(60,207,23,1)">Equipment</a>
+                    </li>
+                    <li>
+                        <a href="./Welcome.html#contact" style="color: rgb(60,207,23,1)">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://www.ou.edu/lunarsooners/index/Welcome.html" style="color: rgb(60,207,23,1)">Lunar Sooners</a>
+                    </li>
+                </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+    </nav>
+
+
+    <!--##############-->
+    <!-- Intro Header -->
+    <!--##############-->
+    <div class="col-md-8 col-md-offset-2 center" >
+        <div style="padding-top: 150px;">  
+            <div id='grad1'>
+
+                <!--##################-->
+                <!-- Equipment Header -->
+                <!--##################-->
+                <div style="padding-top: 50px;" width="100%" align="center" class="flex-container wrapper">
+                    <div align="center">
+                        <div style="color: rgba(130, 136, 212,1);display: inline-block;font-size: 3em;">Equipment</div><br>
+                    </div>  
+                </div>
+                <div id="equiplist"></div>
+
+                <!--########-->
+                <!-- Footer -->
+                <!--########-->
+                <footer>
+                    <div class="flex-container mainwrapper" style="width:100%;">
+                        <div><a style="display: inline-block;font-size: 2em;" href="https://giving.oufoundation.org/OnlineGivingWeb/Giving/OnlineGiving/devmain" target="blank">Donations</a><br></div>
+                        <div  style="color: rgb(60,207,23,1);display: inline-block;font-size: 1em;"><script class="container text-center" language="Javascript"> document.write("This page was last modified on: " + document.lastModified +"") </script></div><br>
+                        <a style="display: inline-block;font-size: 1em;" href="https://www.nhn.ou.edu/~reynolds/" target="blank">Webmaster</a><br>
+                        <p style="padding-top: 0pt;color: rgba(130, 136, 212,1);display: inline-block;font-size: 1em;" class="paragraph_style_16"><a target="blank" title="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" href="https://www.nhn.ou.edu/research/astrophysics-and-cosmology">Astrophysics Research at OU<br /></a></p>            
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!--###################-->
+    <!-- Plugin JavaScript -->
+    <!--###################-->
+    <!-- Creates the list of stars to be observed -->
+    <script>
+        function curEquip(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                var i;
+                for (i in this.responseText.split("\n")){
+                    if (this.responseText.split("\n")[i].split(':')[0] == "+"){
+                      var paraG = document.createElement("P");
+                      paraG.setAttribute("style","color: rgba(77,62,207,1);");
+                      var t = document.createTextNode(this.responseText.split("\n")[i].split(':')[1]);
+                      paraG.appendChild(t);
+                      document.getElementById("equiplist").appendChild(paraG);
+                    }
+                    else if ((this.responseText.split("\n")[i].split(':')[0] != "") && (this.responseText.split("\n")[i].split(':')[0] != "\n")) {
+                      var parag = document.createElement("P");
+                      parag.setAttribute("style","color: rgba(255,255,255,1);");
+                      var v = document.createTextNode(this.responseText.split("\n")[i].split(':')[0] + " : " + this.responseText.split("\n")[i].split(':')[1]);
+                      parag.appendChild(v);
+                      document.getElementById("equiplist").appendChild(parag);
+                    }
+                };
+            };
+            xhr.open('GET', url);
+            xhr.send();
+        }
+        curEquip('./equipment.config');
+    </script>
+</body>
+</html>
+
+<!--#############-->
+<!-- End of Code -->
