@@ -1,7 +1,13 @@
-README
-=======================================================
-OU Observatory Website
-=======================================================
+     ###   #   #          ###   #                                          #
+    #   #  #   #         #   #  #                                          #
+    #   #  #   #         #   #  # ##    ###    ###   # ##   #   #   ###   ####    ###   # ##   #   #
+    #   #  #   #         #   #  ##  #  #      #   #  ##  #  #   #      #   #     #   #  ##  #  #   #
+    #   #  #   #         #   #  #   #   ###   #####  #       # #    ####   #     #   #  #      #  ##
+    #   #  #   #         #   #  ##  #      #  #      #       # #   #   #   #  #  #   #  #       ## #
+     ###    ###           ###   # ##   ####    ###   #        #     ####    ##    ###   #          #
+                                                                                               #   #
+                                                                                                ###
+--------------------------------------------------------------------------------------------------------
 
 This file will help to explain how to best update the Lunar Sooners Website. Unless you are very experienced with HTML and Javascript, please do not change the code files or mess with the format of the properties/config files.
 
