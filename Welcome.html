@@ -35,23 +35,23 @@ Author: Nickalas Reynolds
     <!--###################-->
     <!-- Plugin JavaScript -->
     <!--###################-->
-    <script src="./js/jquery.js" language="Javascript"></script>
-    <script src="./js/jquery_easing.js" language="Javascript"></script>
-    <script src="./js/collapse_toolbar.js" language="Javascript"></script>
-    <script src="./js/bootstrap.min.js" language="Javascript"></script>
-    <script src="./js/weather.js" language="Javascript"></script>
-    <script src="./js/jquery.simpleWeather.min.js" language="Javascript"></script>
-    <script src="./js/moment.js" language="Javascript"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery_easing.js"></script>
+    <script src="./js/collapse_toolbar.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/jquery.simpleWeather.min.js"></script>
+    <script src="./js/moment.js"></script>
 
     <!--##########################-->
     <!-- E-obsfucation Javascript -->
     <!--##########################-->
-    <script src="./js/touch.js" language="Javascript"></script>
+    <script src="./js/touch.js"></script>
 
     <!--#######################################-->
     <!-- Modifies Website Based on Screen Size -->
     <!--#######################################-->
-    <script src="./js/collapse_toolbar.js" language="Javascript"></script>
+    <script src="./js/collapse_toolbar.js"></script>
     <style>
         /* For width 400px and larger: */
         @media only screen and (dev-min-width: 1024px) {
@@ -61,18 +61,19 @@ Author: Nickalas Reynolds
         }
         @media all and (min-width: 768px) {.lart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.lart .rart {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}.rart{-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}}
     </style>
+    <!-- decides background -->
+    <style>
+        html,body {
+            background: url('./img/hubble-ultra-deep-field.jpg') no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
 </head>
 
-<!-- decides background -->
-<style type="text/css">
-html,body {
-    background: url('./img/hubble-ultra-deep-field.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-</style>
+
 <!--######################################-->
 <!-- Information to Display on front page -->
 <!--######################################-->
@@ -81,7 +82,7 @@ html,body {
     <!--############-->
     <!-- Navigation -->
     <!--############-->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -98,7 +99,7 @@ html,body {
             <div class="about clearfix navbar-fixed-bottom">
                 <p class="pull-left">Star Party</p>
                 <div class="social pull-right">
-                    <script language="Javascript">touch3("loonersooners","ou",5,"")</script>
+                    <script>touch3("loonersooners","ou",5,"")</script>
                     <a href="https://twitter.com/OUStarParty" target="blank"><i class="fa fa-twitter"></i></a>
                     <a href="https://github.com/nickalaskreynolds/ouobservatory.git" target="blank"> <i class="fa fa-github"></i></a>
                 </div>
@@ -148,7 +149,7 @@ html,body {
                 <div class="containerb" align="center" id='nextparty'>
                     <header>
                     <div class="image">
-                        <img src="./img/eclipse_oustarparty_cropped_border.png" min-width="100px" min-height="50px" height="150px">
+                        <img src="./img/eclipse_oustarparty_cropped_border.png" width="500" height="150">
                     </div>
                     </header>
                 </div>
@@ -166,7 +167,7 @@ html,body {
                         <div style="color: rgba(256,256,256,1);display: inline-block;font-size: 2em;">
                             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><i class="fa fa-twitter"></i> re-Tweet</a>
                         </div>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" language="Javascript"></script> 
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
                     </div>  
                 </div>
 
@@ -182,29 +183,32 @@ html,body {
                             <li  style="padding-right: 147px;">
                                 <div style="color: rgba(256,256,256,1);font-size: 1.5em;" id="obsz"></div>
                                 <a id='starZa' href="./Welcome.html" target="_blank">
-                                    <img id='starZ' src="./img/default.jpg" width="147px" height="142px">
+                                    <img id='starZ' src="./img/default.jpg" width="147" height="142">
                                 </a>
 
                             </li>
                             <li style="padding-right: 147px;">
                                 <div style="color: rgba(256,256,256,1);font-size: 1.5em;" id="obso"></div>
                                 <a id='starOa' href="./Welcome.html" target="_blank">
-                                    <img id='starO' src="./img/default.jpg" width="147px" height="142px">
+                                    <img id='starO' src="./img/default.jpg" width="147" height="142">
                                 </a>
                             </li>
                             <li style="padding-right: 147px;">
                                 <div style="color: rgba(256,256,256,1);font-size: 1.5em;" id="obstw"></div>
                                 <a id='starTwa' href="./Welcome.html" target="_blank">
-                                    <img id='starTw' src="./img/default.jpg" width="147px" height="142px">
+                                    <img id='starTw' src="./img/default.jpg" width="147" height="142">
                                 </a>
                             </li>
                             <li style="padding-right: 147px;">
                                 <div style="color: rgba(256,256,256,1);font-size: 1.5em;" id="obsth"></div>
                                 <a id='starTha' href="./Welcome.html" target="_blank">
-                                    <img id='starTh' src="./img/default.jpg" width="147px" height="142px">
+                                    <img id='starTh' src="./img/default.jpg" width="147" height="142">
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                    <div align="center" class="flex-container">
+                        <div style='display:inline-block; border: 1px solid #CCC; border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; position: relative; overflow: hidden; width: 300px; height: 300px;'> <iframe src='https://spotthestation.nasa.gov/widget/widget.cfm?country=United_States&region=Oklahoma&city=Norman&theme=2' width='300' height='300' frameborder='0' ></iframe></div>
                     </div>
                 </div>
 
@@ -329,7 +333,7 @@ html,body {
                 <footer>
                     <div class="flex-container mainwrapper" style="width:100%;">
                     <div style="font-size: 2em">We provide these services free to the public, however, we do accept <a style="display: inline-block" href="https://giving.oufoundation.org/OnlineGivingWeb/Giving/OnlineGiving/devmain" target="blank">donations</a> which goes towards travels and equipment.<br></div>
-                        <div  style="color: rgb(60,207,23,1);display: inline-block;font-size: 1em;"><script class="container text-center" language="Javascript"> document.write("This page was last modified on: " + document.lastModified +"") </script></div><br>
+                        <div  style="color: rgb(60,207,23,1);display: inline-block;font-size: 1em;"><script class="container text-center"> document.write("This page was last modified on: " + document.lastModified +"") </script></div><br>
                         <a style="display: inline-block;font-size: 1em;" href="https://www.nhn.ou.edu/~reynolds/" target="blank">Webmaster</a><br>
                         <p style="padding-top: 0pt;color: rgba(130, 136, 212,1);display: inline-block;font-size: 1em;" class="paragraph_style_16"><a target="blank" title="https://www.nhn.ou.edu/research/astrophysics-and-cosmology" href="https://www.nhn.ou.edu/research/astrophysics-and-cosmology">Astrophysics Research at OU<br /></a></p>            
                     </div>
@@ -344,7 +348,7 @@ html,body {
     <!-- Plugin JavaScript -->
     <!--###################-->
     <!-- populates the observation date and message -->
-    <script language="Javascript">
+    <script>
         function populateObs(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -359,7 +363,7 @@ html,body {
         populateObs('./Website.properties');
     </script>
     <!-- Creates the list of stars to be observed -->
-    <script language="Javascript">
+    <script>
         function obsStars(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -376,7 +380,7 @@ html,body {
         obsStars('./Website.properties');
     </script>
     <!-- The next 4 JS populate the images and references for the above stars-->
-    <script language="Javascript">
+    <script>
         function popStar0(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -388,7 +392,7 @@ html,body {
         }
         popStar0('./Website.properties');
     </script>
-    <script language="Javascript">
+    <script>
         function popStar1(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -400,7 +404,7 @@ html,body {
         }
         popStar1('./Website.properties');
     </script>
-    <script language="Javascript">
+    <script>
         function popStar2(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -412,7 +416,7 @@ html,body {
         }
         popStar2('./Website.properties');
     </script>
-    <script language="Javascript">
+    <script>
         function popStar3(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -425,7 +429,7 @@ html,body {
         popStar3('./Website.properties');
     </script>
     <!-- Gives the Name of the upcoming schedule -->
-    <script language="Javascript">
+    <script>
         function timelineSched(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -439,7 +443,7 @@ html,body {
         timelineSched('./Website.properties');
     </script>
     <!-- Gives the Name of the upcoming Months-->
-    <script language="Javascript">
+    <script>
         function timelineSched(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
@@ -458,7 +462,7 @@ html,body {
         timelineSched('./currentschedule.properties');
     </script>
     <!-- Gives the Dates of the upcoming Months-->
-    <script language="Javascript">
+    <script>
         function timelineSched(url) {
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
