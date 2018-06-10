@@ -1,0 +1,10 @@
+# ignoring large compressions
+*.tar*
+*.Z*
+*.gz*
+*.zip*
+*.bz2*
+
+# ignoring python paths
+*__pycache__*
+*.pyc*
