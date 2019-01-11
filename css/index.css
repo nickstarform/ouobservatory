@@ -43,12 +43,12 @@ html, body, .v-align {
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
   /* IE6-9 */
 }
-.flex-container ul li {
-  margin:2px;
-  min-height: 150px;
-  padding:2px;
+.cc ul li {
+  margin:30px;
+  min-height: 200px;
+  min-width: 180px;
   width:  24%;
-  height: 200px;
+  max-height: 320px;
   float: left; 
   box-sizing: border;box;
   list-style:none;
@@ -70,10 +70,51 @@ html, body, .v-align {
   white-space:nowrap; 
   list-style-type:none;
 }
+.div ul li {
+    padding: 20px;
+}
 .div ul li a {
     display: inline;
     list-style-type: none;
     vertical-align: top;
+}
+.div ul li div {
+    display: inline;
+    list-style-type: none;
+    vertical-align: top;
+    text-align: center;
+
+}
+.flex-container ul li img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#obsz {
+    width: 100%;
+    color: rgba(256,256,256,1);
+    font-size: 100%;
+}
+#obso {
+    width: 100%;
+    color: rgba(256,256,256,1);
+    font-size: 100%;
+
+}
+
+#obstw {
+    width: 100%;
+    color: rgba(256,256,256,1);
+    font-size: 100%;
+
+}
+
+#obsth {
+    width: 100%;
+    color: rgba(256,256,256,1);
+    font-size: 100%;
+    vertical-align: center;
+
 }
 
 #containerb {
