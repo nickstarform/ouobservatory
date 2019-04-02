@@ -21,6 +21,10 @@ html, body, .v-align {
     flex: 1 100%;
 }
 
+svg {
+  width: 100%;
+}
+
 #footer{
   position:absolute;
   background-position: bottom 100px center;
@@ -42,6 +46,11 @@ html, body, .v-align {
   /* W3C */
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
   /* IE6-9 */
+}
+.observeText {
+  min-height:40px;
+  text-transform: uppercase;
+  font-size: 2em;
 }
 .cc ul li {
   margin:30px;
@@ -93,28 +102,22 @@ html, body, .v-align {
 #obsz {
     width: 100%;
     color: rgba(256,256,256,1);
-    font-size: 100%;
 }
 #obso {
     width: 100%;
     color: rgba(256,256,256,1);
-    font-size: 100%;
 
 }
 
 #obstw {
     width: 100%;
     color: rgba(256,256,256,1);
-    font-size: 100%;
 
 }
 
 #obsth {
     width: 100%;
     color: rgba(256,256,256,1);
-    font-size: 100%;
-    vertical-align: center;
-
 }
 
 #containerb {
